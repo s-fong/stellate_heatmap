@@ -1,0 +1,3310 @@
+EX Version: 2
+Region: /
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=3 (value,d/ds1,d/ds2)
+ y. #Values=3 (value,d/ds1,d/ds2)
+ z. #Values=3 (value,d/ds1,d/ds2)
+Node: 1
+ -2.149085885552704e+02 -3.445711300620581e+02 -2.693344609137811e+01
+ -2.169621932325057e+02  1.163420106011651e+02 -1.509321993903459e+02
+ -9.001095496327768e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 2
+  1.649283203347160e+02  5.347930892430617e+02  7.811141537018329e-01
+ -1.907880542240730e+02  2.500160706648487e+01  1.571666214482356e+02
+ -8.826501049979871e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 3
+  6.987981752289722e+02  4.956232974943252e+02 -6.752139478762500e+01
+ -1.874157543878306e+02  7.475672142381759e+00  7.083002326278600e+01
+ -8.611192274970912e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 4
+  1.184229509745446e+03  4.470930493311731e+02 -8.623673537046038e+01
+ -3.193193196483763e+02  3.565796870712929e+01  1.289202124971543e+02
+ -8.526392867137028e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 5
+ -4.004775975407785e+02  2.497742613910269e+02 -4.067503330003399e+02
+  5.655868022143095e+01  3.781383614192294e+02  2.877550366390234e+02
+ -8.893184205000679e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 6
+  1.896522965118909e+02  5.411001812326551e+02 -5.680645191428908e+01
+ -3.617522050939192e+01  2.445250002101475e+01  1.539930329199024e+02
+ -8.735662811025949e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 7
+  7.095421076956566e+02  5.141963788550571e+02 -9.392986325052678e+01
+ -1.107273629407956e+02  8.942634323134865e+00  7.380312374038775e+01
+ -8.580264271148965e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 8
+  1.209363380310070e+03  5.010863789971245e+02 -6.029944676491603e+01
+ -1.988735025962219e+02  2.145291214205867e+01  1.221959461433849e+02
+ -8.436181091210742e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 9
+  1.679604678304360e+03  3.097766982201550e+02 -1.518579553794583e+01
+ -2.330798198648734e+02  7.025676440550176e+01  2.566382852027489e+02
+ -8.353199836748958e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 10
+ -1.590829797594511e+02  2.153665146933068e+02 -1.020930901009190e+02
+  2.492409212176585e+02  1.345007909909032e+02  1.029659709773659e+02
+ -8.703649369196891e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 11
+  2.153063720717207e+02  5.236888425660884e+02 -9.856443189121501e+01
+  1.172726839613871e+02  2.411935431071843e+01  1.561159930269332e+02
+ -8.646904075780603e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 12
+  7.179562738165015e+02  4.982229186747676e+02 -1.125580727993973e+02
+ -3.310208498146997e+01  8.834446698458178e+00  7.267400963891809e+01
+ -8.547813862162059e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 13
+  1.220836400735091e+03  4.554769969900448e+02 -3.035101801981824e+01
+ -8.069679658420003e+01  1.523312033472232e+01  1.263812348694586e+02
+ -8.344949463407750e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 14
+ -2.190203707471308e+02 -3.436555604389091e+02 -2.511488625131307e+01
+ -2.166287506274923e+02  1.170377513133546e+02 -1.504820969927835e+02
+ -1.985549253282115e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 15
+  1.610119431041664e+02  5.342321260538765e+02  4.774689625137995e-01
+ -1.922502633408869e+02  2.465591393940072e+01  1.576121906653798e+02
+ -1.821848103853285e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 16
+  6.935737459991576e+02  4.964880476136482e+02 -6.826670078203810e+01
+ -1.887778429830379e+02  8.283458893776970e+00  7.037584582878775e+01
+ -1.604942025562896e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 17
+  1.180571198988022e+03  4.508308449296550e+02 -8.628371968407548e+01
+ -3.216906063846129e+02  3.502468814407635e+01  1.284073481808842e+02
+ -1.517945505709458e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 18
+ -4.048928489324667e+02  2.497108008027572e+02 -4.067241703439605e+02
+  5.665090518872253e+01  3.790866677154168e+02  2.867823962164627e+02
+ -1.880243353169848e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 19
+  1.854841018998445e+02  5.406977498296438e+02 -5.768251534448115e+01
+ -3.736065503219535e+01  2.439756990740350e+01  1.539906528871447e+02
+ -1.730224798402594e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 20
+  7.047470658897950e+02  5.140747590586060e+02 -9.467284621836231e+01
+ -1.124599584879081e+02  9.248123750563613e+00  7.360955179449022e+01
+ -1.573797093104195e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 21
+  1.205295144014532e+03  5.020465740943720e+02 -6.111933780724205e+01
+ -2.013810151426709e+02  2.129532068081006e+01  1.216042203932567e+02
+ -1.429197978170839e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 22
+  1.674332018397233e+03  3.075641370482653e+02 -1.677136537475785e+01
+ -2.363269703103167e+02  7.008478627965751e+01  2.494593871806221e+02
+ -1.340164308435032e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 23
+ -1.630467793426298e+02  2.146265749643242e+02 -1.026605287753667e+02
+  2.488322726587262e+02  1.347589818482601e+02  1.027849715739477e+02
+ -1.695780920509797e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 24
+  2.112634772257591e+02  5.235196454436458e+02 -9.931462962084284e+01
+  1.160868027263407e+02  2.426921166866161e+01  1.560443679478815e+02
+ -1.642681472316840e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 25
+  7.134186936841967e+02  4.994186445979793e+02 -1.130482988524411e+02
+ -3.517260718195748e+01  8.890972784910122e+00  7.237427984863868e+01
+ -1.543429341481040e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 26
+  1.216893423699791e+03  4.602608190975426e+02 -3.029798416564055e+01
+ -8.315591066672638e+01  1.510861828465355e+01  1.259782108130102e+02
+ -1.339562161290800e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 27
+ -4.939430344930831e+02 -3.260548649327422e+02  3.784947712723625e+02
+  5.040978206593374e+02 -1.272376113275686e+02 -3.916290231465219e+01
+ -8.675847627849264e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 28
+ -6.287708721959959e+02 -2.111532732079895e+02  3.557738453145502e+02
+  4.648009856651486e+02 -1.292297182570095e+02 -3.211631499915990e+01
+ -8.761806553009792e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 29
+ -7.390736318374926e+02 -4.681122077725441e+01  2.678222303504949e+01
+  5.945033050173448e+02 -2.562567038258261e+02 -5.561734794480111e+01
+ -8.919969851005075e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 30
+ -8.215246784060433e+02  6.902479471872621e+01  1.804199992772356e+02
+  1.321686908839510e+02 -2.400292814734223e+02  4.112679225977099e+01
+ -8.992990319639627e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 31
+ -7.682642790071786e+02 -1.085605712901784e+02  3.938268668598330e+02
+  4.382077250671990e+02 -1.310309423393452e+02 -2.309985978284369e+01
+ -8.822948297926376e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 32
+ -4.974891732620637e+02 -3.251007425754429e+02  3.786142354469326e+02
+  5.040959516337340e+02 -1.271789402231250e+02 -3.891472604639819e+01
+ -1.669322216642191e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 33
+ -6.321470069767055e+02 -2.100718832024187e+02  3.559162486300228e+02
+  4.649996532874865e+02 -1.290036331059642e+02 -3.183407798027319e+01
+ -1.751872612949382e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 34
+ -7.421634699035465e+02 -4.746954051015624e+01  2.624249036764295e+01
+  5.947743162380085e+02 -2.563344380919103e+02 -5.520765340269486e+01
+ -1.911204954499586e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 35
+ -8.266286191774218e+02  7.091337455789748e+01  1.810920410890137e+02
+  1.325392266532689e+02 -2.409323615943962e+02  4.103769742962213e+01
+ -1.975648605244048e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 36
+ -7.713658620341029e+02 -1.044725123913558e+02  3.954706901501587e+02
+  4.386376135840646e+02 -1.305440115349714e+02 -2.282902777331507e+01
+ -1.813457453905373e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 37
+ -9.803697183483479e+02 -3.596453753263321e+02 -2.235496272889928e+02
+ -1.102765944888118e+02  1.601726660304340e+02 -7.966399564002793e+01
+ -9.181303033859730e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 38
+ -8.193311244409066e+02 -3.883174288922268e+02 -1.830499836806438e+02
+ -1.919463610189521e+02  1.525845212262899e+02 -8.265793269448628e+01
+ -9.165616964615474e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 39
+ -9.715317060168043e+02 -3.813851523941459e+01 -2.392889229949883e+01
+ -2.653287732526808e+02  2.939676826884870e+02 -1.604556250717089e+02
+ -9.327266746676011e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 40
+ -6.687963379383566e+02 -4.886874176563817e+02 -1.536164933625379e+02
+ -2.784905524039510e+02  1.450614918801296e+02 -8.237200194443105e+01
+ -9.155234130884065e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 41
+ -9.860554827711272e+02 -3.593517098554443e+02 -2.243439681326923e+02
+ -1.090208637303660e+02  1.599469679723372e+02 -7.945884293803867e+01
+ -2.156398377530129e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 42
+ -8.252913399804060e+02 -3.903085444268100e+02 -1.816183569553301e+02
+ -1.905938213947531e+02  1.524706616486562e+02 -8.242462334878053e+01
+ -2.142200189053305e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 43
+ -9.787641453197406e+02 -3.868180395888974e+01 -2.252191615189734e+01
+ -2.626875176383541e+02  2.950295918102811e+02 -1.595796757710514e+02
+ -2.294824286416814e+01  0.000000000000000e+00  0.000000000000000e+00
+Node: 44
+ -6.750179935951020e+02 -4.933761900300698e+02 -1.516707009700804e+02
+ -2.771407458265125e+02  1.448116535928581e+02 -8.218181307291880e+01
+ -2.132957050610433e+01  0.000000000000000e+00  0.000000000000000e+00
+#Fields=2
+1) marker_location, field, rectangular cartesian, element_xi, #Components=1, host mesh=mesh3d, host mesh dimension=3
+ 1. #Values=1 (value)
+2) marker_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 45
+ 10  8.000000000000000e-01  0.000000000000000e+00  5.000000000000000e-01
+ "Inferior cardiac nerve"
+Node: 46
+ 12  8.000000000000000e-01  1.000000000000000e+00  5.000000000000000e-01
+ "Ventral ansa subclavia"
+Node: 47
+ 14  8.000000000000000e-01  0.000000000000000e+00  5.000000000000000e-01
+ "Dorsal ansa subclavia"
+Node: 48
+ 16  8.000000000000000e-01  1.000000000000000e+00  5.000000000000000e-01
+ "Cervical spinal nerve 8"
+Node: 49
+ 2  0.000000000000000e+00  0.000000000000000e+00  5.000000000000000e-01
+ "Thoracic spinal nerve 1"
+Node: 50
+ 3  0.000000000000000e+00  0.000000000000000e+00  5.000000000000000e-01
+ "Thoracic spinal nerve 2"
+Node: 51
+ 4  0.000000000000000e+00  0.000000000000000e+00  5.000000000000000e-01
+ "Thoracic spinal nerve 3"
+Node: 52
+ 4  1.000000000000000e+00  1.000000000000000e+00  5.000000000000000e-01
+ "Thoracic sympathetic nerve trunk"
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+Element: 70
+Element: 71
+Element: 72
+Element: 73
+Element: 74
+Element: 75
+Element: 76
+Element: 77
+Element: 78
+Element: 79
+Element: 80
+Element: 81
+Element: 82
+Element: 83
+Element: 84
+Element: 85
+Element: 86
+Element: 87
+Element: 88
+Element: 89
+Element: 90
+Element: 91
+Element: 92
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+ Faces:
+ 1 2 3 4
+Element: 2
+ Faces:
+ 5 6 7 8
+Element: 3
+ Faces:
+ 9 10 1 5
+Element: 4
+ Faces:
+ 11 12 2 6
+Element: 5
+ Faces:
+ 3 7 9 11
+Element: 6
+ Faces:
+ 4 8 10 12
+Element: 7
+ Faces:
+ 13 14 15 16
+Element: 8
+ Faces:
+ 17 18 5 13
+Element: 9
+ Faces:
+ 19 20 6 14
+Element: 10
+ Faces:
+ 7 15 17 19
+Element: 11
+ Faces:
+ 8 16 18 20
+Element: 12
+ Faces:
+ 21 22 23 24
+Element: 13
+ Faces:
+ 25 26 13 21
+Element: 14
+ Faces:
+ 27 28 14 22
+Element: 15
+ Faces:
+ 15 23 25 27
+Element: 16
+ Faces:
+ 16 24 26 28
+Element: 17
+ Faces:
+ 29 30 21 31
+Element: 18
+ Faces:
+ 32 33 22 31
+Element: 19
+ Faces:
+ 23 -1 29 32
+Element: 20
+ Faces:
+ 24 -1 30 33
+Element: 21
+ Faces:
+ 2 34 35 36
+Element: 22
+ Faces:
+ 6 37 38 39
+Element: 23
+ Faces:
+ 40 41 34 37
+Element: 24
+ Faces:
+ 35 38 11 40
+Element: 25
+ Faces:
+ 36 39 12 41
+Element: 26
+ Faces:
+ 14 42 43 44
+Element: 27
+ Faces:
+ 45 46 37 42
+Element: 28
+ Faces:
+ 38 43 19 45
+Element: 29
+ Faces:
+ 39 44 20 46
+Element: 30
+ Faces:
+ 22 47 48 49
+Element: 31
+ Faces:
+ 50 51 42 47
+Element: 32
+ Faces:
+ 43 48 27 50
+Element: 33
+ Faces:
+ 44 49 28 51
+Element: 34
+ Faces:
+ 52 53 47 31
+Element: 35
+ Faces:
+ 48 -1 32 52
+Element: 36
+ Faces:
+ 49 -1 33 53
+Element: 37
+ Faces:
+ 54 55 56 57
+Element: 38
+ Faces:
+ 58 59 34 54
+Element: 39
+ Faces:
+ 60 61 2 55
+Element: 40
+ Faces:
+ 35 56 58 60
+Element: 41
+ Faces:
+ 36 57 59 61
+Element: 42
+ Faces:
+ 62 63 54 64
+Element: 43
+ Faces:
+ 65 66 55 64
+Element: 44
+ Faces:
+ 56 -1 62 65
+Element: 45
+ Faces:
+ 57 -1 63 66
+Element: 46
+ Faces:
+ 2 67 68 69
+Element: 47
+ Faces:
+ 55 70 71 72
+Element: 48
+ Faces:
+ 73 74 67 70
+Element: 49
+ Faces:
+ 68 71 60 73
+Element: 50
+ Faces:
+ 69 72 61 74
+Element: 51
+ Faces:
+ 75 76 70 64
+Element: 52
+ Faces:
+ 71 -1 65 75
+Element: 53
+ Faces:
+ 72 -1 66 76
+Element: 54
+ Faces:
+ 77 78 79 80
+Element: 55
+ Faces:
+ 81 82 67 77
+Element: 56
+ Faces:
+ 83 84 2 78
+Element: 57
+ Faces:
+ 68 79 81 83
+Element: 58
+ Faces:
+ 69 80 82 84
+Element: 59
+ Faces:
+ 85 86 77 87
+Element: 60
+ Faces:
+ 88 89 78 87
+Element: 61
+ Faces:
+ 79 -1 85 88
+Element: 62
+ Faces:
+ 80 -1 86 89
+Element: 63
+ Faces:
+ 78 90 91 92
+Element: 64
+ Faces:
+ 93 94 1 90
+Element: 65
+ Faces:
+ 3 91 83 93
+Element: 66
+ Faces:
+ 4 92 84 94
+Element: 67
+ Faces:
+ 95 96 90 87
+Element: 68
+ Faces:
+ 91 -1 88 95
+Element: 69
+ Faces:
+ 92 -1 89 96
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  3. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  7. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  3. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  7. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  3. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  7. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 1
+ Faces:
+ 1 2 3 4 5 6
+ Nodes:
+ 1 2 5 6 14 15 18 19
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+Element: 2
+ Faces:
+ 2 7 8 9 10 11
+ Nodes:
+ 2 3 6 7 15 16 19 20
+Element: 3
+ Faces:
+ 7 12 13 14 15 16
+ Nodes:
+ 3 4 7 8 16 17 20 21
+#Scale factor sets=0
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+Element: 4
+ Faces:
+ 12 -1 17 18 19 20
+ Nodes:
+ 4 9 8 17 22 21
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  1. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  5. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  1. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  5. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  1. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  5. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 5
+ Faces:
+ 21 22 4 23 24 25
+ Nodes:
+ 5 6 10 11 18 19 23 24
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+Element: 6
+ Faces:
+ 22 26 9 27 28 29
+ Nodes:
+ 6 7 11 12 19 20 24 25
+Element: 7
+ Faces:
+ 26 30 14 31 32 33
+ Nodes:
+ 7 8 12 13 20 21 25 26
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+Element: 8
+ Faces:
+ 30 -1 18 34 35 36
+ Nodes:
+ 8 9 13 21 22 26
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 9
+ Faces:
+ 21 37 38 39 40 41
+ Nodes:
+ 10 27 5 28 23 32 18 33
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+Element: 10
+ Faces:
+ 37 -1 42 43 44 45
+ Nodes:
+ 27 29 28 32 34 33
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 11
+ Faces:
+ 46 47 39 48 49 50
+ Nodes:
+ 5 28 30 31 18 33 35 36
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+Element: 12
+ Faces:
+ 47 -1 43 51 52 53
+ Nodes:
+ 28 29 31 33 34 36
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 13
+ Faces:
+ 46 54 55 56 57 58
+ Nodes:
+ 30 37 5 38 35 41 18 42
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+Element: 14
+ Faces:
+ 54 -1 59 60 61 62
+ Nodes:
+ 37 39 38 41 43 42
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 15
+ Faces:
+ 1 63 56 64 65 66
+ Nodes:
+ 5 38 1 40 18 42 14 44
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+Element: 16
+ Faces:
+ 63 -1 60 67 68 69
+ Nodes:
+ 38 39 40 42 43 44
+ Scale factors:
+ -1.000000000000000e+00
+ Group name: centroid
+ Group name: cervicothoracic ganglion
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 2
+Node: 3
+Node: 4
+Node: 5
+Node: 6
+Node: 7
+Node: 8
+Node: 9
+Node: 10
+Node: 11
+Node: 12
+Node: 13
+Node: 14
+Node: 15
+Node: 16
+Node: 17
+Node: 18
+Node: 19
+Node: 20
+Node: 21
+Node: 22
+Node: 23
+Node: 24
+Node: 25
+Node: 26
+Node: 27
+Node: 28
+Node: 29
+Node: 30
+Node: 31
+Node: 32
+Node: 33
+Node: 34
+Node: 35
+Node: 36
+Node: 37
+Node: 38
+Node: 39
+Node: 40
+Node: 41
+Node: 42
+Node: 43
+Node: 44
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+Element: 70
+Element: 71
+Element: 72
+Element: 73
+Element: 74
+Element: 75
+Element: 76
+Element: 77
+Element: 78
+Element: 79
+Element: 80
+Element: 81
+Element: 82
+Element: 83
+Element: 84
+Element: 85
+Element: 86
+Element: 87
+Element: 88
+Element: 89
+Element: 90
+Element: 91
+Element: 92
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+ Group name: cmiss_selection
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 2
+Node: 3
+Node: 4
+Node: 9
+Node: 14
+Node: 15
+Node: 16
+Node: 17
+Node: 22
+Node: 39
+Node: 40
+Node: 43
+Node: 44
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 5
+Element: 9
+Element: 10
+Element: 13
+Element: 17
+Element: 18
+Element: 21
+Element: 25
+Element: 26
+Element: 29
+Element: 30
+Element: 31
+Element: 87
+Element: 90
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 3
+Element: 8
+Element: 13
+Element: 17
+Element: 64
+Element: 67
+ Group name: marker
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 45
+Node: 46
+Node: 47
+Node: 48
+Node: 49
+Node: 50
+Node: 51
+Node: 52
+ Group name: stellate arm 1
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 2
+Node: 3
+Node: 4
+Node: 5
+Node: 6
+Node: 7
+Node: 8
+Node: 9
+Node: 10
+Node: 11
+Node: 12
+Node: 13
+Node: 14
+Node: 15
+Node: 16
+Node: 17
+Node: 18
+Node: 19
+Node: 20
+Node: 21
+Node: 22
+Node: 23
+Node: 24
+Node: 25
+Node: 26
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+ Group name: stellate arm 2
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 5
+Node: 10
+Node: 18
+Node: 23
+Node: 27
+Node: 28
+Node: 29
+Node: 30
+Node: 31
+Node: 32
+Node: 33
+Node: 34
+Node: 35
+Node: 36
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 2
+Element: 34
+Element: 35
+Element: 36
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+Element: 70
+Element: 71
+Element: 72
+Element: 73
+Element: 74
+Element: 75
+Element: 76
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 21
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+ Group name: stellate arm 3
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 5
+Node: 14
+Node: 18
+Node: 30
+Node: 35
+Node: 37
+Node: 38
+Node: 39
+Node: 40
+Node: 41
+Node: 42
+Node: 43
+Node: 44
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 67
+Element: 68
+Element: 69
+Element: 77
+Element: 78
+Element: 79
+Element: 80
+Element: 81
+Element: 82
+Element: 83
+Element: 84
+Element: 85
+Element: 86
+Element: 87
+Element: 88
+Element: 89
+Element: 90
+Element: 91
+Element: 92
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 46
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+ Group name: stellate face 1-2
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 23
+Element: 27
+Element: 31
+Element: 34
+Element: 38
+Element: 42
+ Group name: stellate face 2-3
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 48
+Element: 51
+Element: 55
+Element: 59
+ Group name: stellate face 3-1
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 3
+Element: 8
+Element: 13
+Element: 17
+Element: 64
+Element: 67

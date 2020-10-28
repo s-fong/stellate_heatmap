@@ -1,0 +1,99 @@
+EX Version: 2
+Region: /
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=3 (value,d/ds1,d/ds2)
+ y. #Values=3 (value,d/ds1,d/ds2)
+ z. #Values=3 (value,d/ds1,d/ds2)
+Node: 1
+  0.000000000000000e+00  1.000000000000000e+00  0.000000000000000e+00
+  0.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00
+  0.000000000000000e+00  0.000000000000000e+00  0.000000000000000e+00
+Node: 2
+  1.000000000000000e+00  1.000000000000000e+00  0.000000000000000e+00
+  0.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00
+  0.000000000000000e+00  0.000000000000000e+00  0.000000000000000e+00
+Node: 3
+  0.000000000000000e+00  1.000000000000000e+00  0.000000000000000e+00
+  1.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00
+  0.000000000000000e+00  0.000000000000000e+00  0.000000000000000e+00
+Node: 4
+  1.000000000000000e+00  1.000000000000000e+00  0.000000000000000e+00
+  1.000000000000000e+00  0.000000000000000e+00  1.000000000000000e+00
+  0.000000000000000e+00  0.000000000000000e+00  0.000000000000000e+00
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=4
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=4
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ y. c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=4
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ z. c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=4
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+Element: 1
+ Faces:
+ 1 2 3 4
+ Nodes:
+ 1 2 3 4

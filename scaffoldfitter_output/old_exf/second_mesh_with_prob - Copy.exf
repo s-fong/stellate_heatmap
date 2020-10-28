@@ -1,0 +1,1162 @@
+EX Version: 2
+Region: /
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=2
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ y. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ z. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+2) probability, field, rectangular cartesian, real, #Components=1
+ 1.  #Values=4 (value,d/ds1,d/ds2,d/ds3)
+Node: 32
+	-90.16476189096969	334.71927408863394	308.526665221213	-0.3738913101790465
+	-282.0573781783951	117.39013833273866	91.51135558120612	-3.298380878176312
+	-82.86733224369316	3.194770258799552	5.559805947330473	19.085603965404246
+	0.0054001651862657235	0.0	0.0	0.0
+Node: 26
+	-430.81063096975015	206.81903378185814	188.6584823926349	-0.20544627126307563
+	-452.96311433009896	20.372767191459744	-19.0845328006624	-3.4983683866161077
+	-87.65672092971325	2.2716144383653596	3.170961953811456	19.08480340448181
+	0.6804103566037494	0.0	0.0	0.0
+Node: 25
+	-678.4693983718112	205.92563732504118	11.786097970424594	0.30896806283024514
+	-290.2620174306729	-154.12581712559395	181.37016084919003	-3.7438344587856847
+	-87.02581331244825	-2.7051404616936265	4.375598194614049	19.087702417420658
+	0.5251385922259615	0.0	0.0	0.0
+Node: 31
+	-526.4420765904842	389.27194015308186	45.017067359738235	-0.282305352791202
+	-112.81662494412228	-41.407103369474584	206.08494045351938	-3.4748614604790142
+	-83.15536585102755	0.044381236190817686	5.565881742337631	19.08348619995413
+	0.005418904065560583	0.0	0.0	0.0
+Node: 37
+	-407.8470640772276	342.8560032545147	46.559055152545916	-0.4095440280721688
+	335.38224874543357	-21.857663593530248	185.506989476657	-3.114507983792643
+	-76.32937615109878	-0.5937783078815705	5.3549877099612075	19.08359848498094
+	0.005400139367435089	0.0	0.0	0.0
+Node: 43
+	-396.8754640169774	143.0647548207815	31.839146045570327	-0.2975244982050627
+	492.11812784201106	145.5074418585052	119.14200734878762	-2.9946752184479726
+	-74.74512752429243	1.5000073612824067	3.938698640962644	19.092025116960563
+	1.2277875087600123	0.0	0.0	0.0
+Node: 44
+	-134.95850021004026	280.33445798546677	-142.45801619534362	-0.27362028035371766
+	500.4535216633575	-111.12002001894436	87.29975933043414	-3.0527243167313034
+	-72.96563512771903	-0.4675049171438988	1.2702655290870577	19.089541501885826
+	0.5071512892765805	0.0	0.0	0.0
+Node: 38
+	60.168310186579674	307.98863629621457	-129.5120800819456	-0.33306518492486165
+	188.17612632005395	-166.66880901115388	176.47267939839526	-3.093686280213946
+	-76.51770889939831	-2.0601951005510326	2.84065768913271	19.080289736933125
+	1.00540052511015	0.0	0.0	0.0
+Node: 39
+	607.42275747415	415.451371221354	107.42089864114692	-0.41273893928160343
+	26.733338862282356	-43.408213602118565	187.66341173170838	-3.065399201318156
+	-77.27383512320208	-1.5822504316251962	3.630949271181503	19.082202955771855
+	0.005400139367435089	0.0	0.0	0.0
+Node: 40
+	1077.0964814044246	382.63740981277334	75.31433691079779	-0.4666763751780576
+	-93.47590581399072	-47.0071228204486	83.5271557002805	-2.968430191674916
+	-79.35143432526412	-0.6730580566709258	-0.4308197727369901	19.08069653232724
+	0.005400139367435089	0.0	0.0	0.0
+Node: 41
+	1553.7955396896261	401.68285664307393	94.77721970498013	-0.3900502791418712
+	-175.22427540481422	-18.147114652650554	79.72489524771322	-2.8281733113392384
+	-75.01572253106075	1.2326568365324098	4.238336848856572	19.098977966700424
+	0.005400139367435101	0.0	0.0	0.0
+Node: 42
+	2113.110779774159	488.79567968299	-64.55957354717745	-0.2793918290473053
+	-290.1217247900412	-177.8039748927165	48.576460479773125	-2.7228105755371046
+	-72.0060363813836	-0.8161583191653831	1.832954942334696	19.118276068686804
+	0.031170373711582475	0.0	0.0	0.0
+Node: 36
+	2025.4886739344354	392.6510261005677	361.75687225357143	-0.3282607491610411
+	-392.25706433094433	26.006892389973224	-39.26024347670298	-2.772336102040115
+	-74.61676190061274	4.231730896864731	4.562244206782476	19.128810404652583
+	0.29126852601320075	0.0	0.0	0.0
+Node: 35
+	1493.9923966331803	376.4279760044689	87.91302881064232	-0.4012570318421294
+	-368.79496543295176	-39.89626542313623	89.62286061213044	-2.873242644003655
+	-77.27832562310621	-0.3822110023942092	3.1107806480569318	19.110019462111545
+	1.0031781728109577	0.0	0.0	0.0
+Node: 34
+	1038.4216036610583	382.55383921044967	68.5180505765117	-0.4318307109762006
+	-280.61245403650776	-16.10320823333202	69.2355390389142	-2.9012214563340493
+	-78.49218611429583	-0.3912136458967057	1.29021312686406	19.095100252810596
+	0.005415755967894221	0.0	0.0	0.0
+Node: 33
+	542.6931378283698	430.58234812155524	78.08225446251745	-0.39933152971385527
+	-267.5266952594212	14.220887580119237	184.05055890882352	-3.0242670196752974
+	-79.79923056652818	-0.32811524652397117	3.462655001220458	19.08379035634297
+	1.1899678233763626	0.0	0.0	0.0
+Node: 8
+	-90.50109638269305	334.7379116154126	308.53487438019437	-0.3748008468798409
+	-285.3630499197534	117.42972621244999	91.50719773910622	-3.3001314101225314
+	-42.95862675358342	3.195905705919854	5.558229559487905	19.086065310901176
+	0.0054001651862657235	0.0	0.0	0.0
+Node: 2
+	-431.0405071849585	206.65953359743008	188.75296279092683	-0.21194040565847033
+	-456.4251454083194	20.494673688168636	-19.127555161008246	-3.4956571735163173
+	-47.74079587034411	2.263770484464436	3.1743165757207525	19.085087956180175
+	0.6804103566037494	0.0	0.0	0.0
+Node: 1
+	-678.1289622187188	205.76433885524804	11.766518854290744	0.32235257506799736
+	-293.99684713510226	-153.99440111469374	181.32343329269605	-3.751852945741349
+	-47.08925616379021	-2.7167620794410063	4.371956237299368	19.08300199669364
+	0.5251385922259615	0.0	0.0	0.0
+Node: 7
+	-526.7469923127811	389.31907659817756	44.98803490363914	-0.283903168941298
+	-116.26074439110181	-41.38472480777785	206.10497808158397	-3.471372141838344
+	-43.24533632838081	0.04375772834942482	5.568719156710839	19.083759870207707
+	0.005418904065560583	0.0	0.0	0.0
+Node: 13
+	-408.2246183150296	342.76005310954633	46.50915895776929	-0.4092309050732035
+	332.2759185353155	-22.142513549930783	185.46552374361565	-3.1171787926989394
+	-36.4287498549362	-0.6101680705948664	5.35531949686344	19.08645007914191
+	0.005400139367435089	0.0	0.0	0.0
+Node: 19
+	-397.12366192087626	142.99818206192742	31.80687914419633	-0.2847543639395794
+	489.124385177106	145.4196380895882	119.13597636508656	-2.9806152791920457
+	-34.840433591738275	1.4958801688983183	3.9285136479343343	19.094975141723594
+	1.2277875087600123	0.0	0.0	0.0
+Node: 20
+	-135.21233024527862	280.2926901765825	-142.42633349708981	-0.28236987910411765
+	497.38574596129047	-111.20969942133229	87.26616412187795	-3.0571947111353124
+	-33.065069224287384	-0.46675747963086744	1.2751714520648745	19.088604154053975
+	0.5071512892765805	0.0	0.0	0.0
+Node: 14
+	59.89931444959382	307.8880588934369	-129.54107081765892	-0.33283167926403195
+	185.04208413797264	-166.9333042221358	176.39736913341363	-3.0966211865786613
+	-36.623379223985445	-2.077371364740249	2.8370098047532912	19.080849867204655
+	1.00540052511015	0.0	0.0	0.0
+Node: 15
+	607.1021448348561	415.2582479173106	107.23265166182209	-0.4130290863992742
+	23.591385809236105	-43.94891108016107	187.56196298757163	-3.0711243960653056
+	-37.377383836163524	-1.6167578740235098	3.63190455869018	19.080991508633822
+	0.005400139367435089	0.0	0.0	0.0
+Node: 16
+	1076.4439304685325	382.7500416715908	75.18819059206751	-0.46553792884357925
+	-97.48425007323851	-46.192017370220306	83.06751897180771	-2.970761693485475
+	-39.449461539879984	-0.6740859227812728	-0.6053771976342452	19.082035892554202
+	0.005400139367435089	0.0	0.0	0.0
+Node: 17
+	1553.499536457845	401.9295144056389	94.75160815544504	-0.3900206316716283
+	-178.11962273032393	-17.81573766166434	79.73205176474681	-2.827813629834528
+	-35.09909467835247	1.2699449753587877	4.242164854713405	19.104176322711933
+	0.005400139367435101	0.0	0.0	0.0
+Node: 18
+	2112.9414485306074	489.09157953014386	-64.4879778479942	-0.280712762919903
+	-292.8661717639193	-177.36943637923042	48.61756432861915	-2.721039922018129
+	-32.06631918635365	-0.7706489058785503	1.834394268864849	19.116039834733854
+	0.031170373711582475	0.0	0.0	0.0
+Node: 12
+	2025.2419814962313	392.6217745698709	361.79323722663474	-0.328066977730817
+	-395.0567873736353	26.03844100478226	-39.34541969347988	-2.768687686372423
+	-34.66957909097182	4.234237743907913	4.554633022871342	19.127424366976065
+	0.29126852601320075	0.0	0.0	0.0
+Node: 11
+	1493.7214856157025	376.4579155244678	87.87114445041989	-0.40140929888060256
+	-371.7397301058092	-39.87729295294671	89.60303347972102	-2.870348458101576
+	-37.349205432776756	-0.3884497931380317	3.1083163746596956	19.10874827178905
+	1.0031781728109577	0.0	0.0	0.0
+Node: 10
+	1038.0978504835293	382.4977724691596	68.59407479026723	-0.431926480475861
+	-283.5410911577021	-16.098360641474766	68.9904229022163	-2.897990385084735
+	-38.57553170164604	-0.3959072139823562	1.21716269004743	19.094364124246816
+	0.005415755967894221	0.0	0.0	0.0
+Node: 9
+	542.4136846438678	430.6289291604327	78.03809900224853	-0.3988639978516852
+	-270.60939207451247	14.279793676040574	184.11761402865096	-3.0194537016221368
+	-39.89614666333157	-0.33021658723845854	3.469710003485162	19.08461434779705
+	1.1899678233763626	0.0	0.0	0.0
+Shape. Dimension=0
+#Fields=2
+1) marker_coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ y. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ z. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+2) marker_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 1000001
+-135.21233024527862	0.0	0.0	0.0
+497.38574596129047	0.0	0.0	0.0
+-33.065069224287384	0.0	0.0	0.0
+  inferiorcardiacnerve_ph
+Node: 1000011
+-397.12366192087626	0.0	0.0	0.0
+489.124385177106	0.0	0.0	0.0
+-34.840433591738275	0.0	0.0	0.0
+  ventralansasubclavia
+Node: 1000021
+-678.1289622187188	0.0	0.0	0.0
+-293.99684713510226	0.0	0.0	0.0
+-47.08925616379021	0.0	0.0	0.0
+  dorsalansasubclavia
+Node: 1000031
+-431.0405071849585	0.0	0.0	0.0
+-456.4251454083194	0.0	0.0	0.0
+-47.74079587034411	0.0	0.0	0.0
+  cervicalspinalnerve8_ph
+Node: 1000041
+542.4136846438678	0.0	0.0	0.0
+-270.60939207451247	0.0	0.0	0.0
+-39.89614666333157	0.0	0.0	0.0
+  thoracicspinalnerve1_ph
+Node: 1000051
+1493.7214856157025	0.0	0.0	0.0
+-371.7397301058092	0.0	0.0	0.0
+-37.349205432776756	0.0	0.0	0.0
+  thoracicspinalnerve2_ph
+Node: 1000061
+2025.2419814962313	0.0	0.0	0.0
+-395.0567873736353	0.0	0.0	0.0
+-34.66957909097182	0.0	0.0	0.0
+  thoracicspinalnerve3_ph
+Node: 1000071
+2112.9414485306074	0.0	0.0	0.0
+-292.8661717639193	0.0	0.0	0.0
+-32.06631918635365	0.0	0.0	0.0
+  thoracicsympatheticnervetrunk
+Node: 1000081
+59.89931444959382	0.0	0.0	0.0
+185.04208413797264	0.0	0.0	0.0
+-36.623379223985445	0.0	0.0	0.0
+  soma1_ph
+Node: 1000091
+44.85927336636513	0.0	0.0	0.0
+138.00157073220004	0.0	0.0	0.0
+-37.256903976945246	0.0	0.0	0.0
+  soma2_ph
+Node: 1000101
+29.819232283136447	0.0	0.0	0.0
+90.96105732642746	0.0	0.0	0.0
+-37.89042872990504	0.0	0.0	0.0
+  soma3_ph
+Node: 1000111
+14.779191199907753	0.0	0.0	0.0
+43.92054392065482	0.0	0.0	0.0
+-38.52395348286484	0.0	0.0	0.0
+  soma4_ph
+Node: 1000121
+-0.2608498833209296	0.0	0.0	0.0
+-3.1199694851177924	0.0	0.0	0.0
+-39.157478235824634	0.0	0.0	0.0
+  soma5_ph
+Shape. Dimension=0
+#Fields=2
+1) soma1_inferiorcardiacnerve_coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ y. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ z. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+2) soma1_inferiorcardiacnerve_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 1000081
+59.89931444959382	0.0	0.0	0.0
+185.04208413797264	0.0	0.0	0.0
+-36.623379223985445	0.0	0.0	0.0
+soma1_ph
+Node: 1000001
+-135.21233024527862	0.0	0.0	0.0
+497.38574596129047	0.0	0.0	0.0
+-33.065069224287384	0.0	0.0	0.0
+inferiorcardiacnerve_ph
+Shape. Dimension=0
+#Fields=2
+1) soma1_ventralansasubclavia_coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ y. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ z. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+2) soma1_ventralansasubclavia_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 1000081
+59.89931444959382	0.0	0.0	0.0
+185.04208413797264	0.0	0.0	0.0
+-36.623379223985445	0.0	0.0	0.0
+soma1_ph
+Node: 1000011
+-397.12366192087626	0.0	0.0	0.0
+489.124385177106	0.0	0.0	0.0
+-34.840433591738275	0.0	0.0	0.0
+ventralansasubclavia
+Shape. Dimension=0
+#Fields=2
+1) soma2_ventralansasubclavia_coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ y. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ z. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+2) soma2_ventralansasubclavia_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 1000091
+44.85927336636513	0.0	0.0	0.0
+138.00157073220004	0.0	0.0	0.0
+-37.256903976945246	0.0	0.0	0.0
+soma2_ph
+Node: 1000011
+-397.12366192087626	0.0	0.0	0.0
+489.124385177106	0.0	0.0	0.0
+-34.840433591738275	0.0	0.0	0.0
+ventralansasubclavia
+Shape. Dimension=0
+#Fields=2
+1) soma2_inferiorcardiacnerve_coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ y. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ z. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+2) soma2_inferiorcardiacnerve_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 1000091
+44.85927336636513	0.0	0.0	0.0
+138.00157073220004	0.0	0.0	0.0
+-37.256903976945246	0.0	0.0	0.0
+soma2_ph
+Node: 1000001
+-135.21233024527862	0.0	0.0	0.0
+497.38574596129047	0.0	0.0	0.0
+-33.065069224287384	0.0	0.0	0.0
+inferiorcardiacnerve_ph
+Shape. Dimension=0
+#Fields=2
+1) soma5_inferiorcardiacnerve_coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ y. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+ z. #Values=4 (value,d/ds1,d/ds2,d/ds3)
+2) soma5_inferiorcardiacnerve_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 1000121
+-0.2608498833209296	0.0	0.0	0.0
+-3.1199694851177924	0.0	0.0	0.0
+-39.157478235824634	0.0	0.0	0.0
+soma5_ph
+Node: 1000001
+-135.21233024527862	0.0	0.0	0.0
+497.38574596129047	0.0	0.0	0.0
+-33.065069224287384	0.0	0.0	0.0
+inferiorcardiacnerve_ph
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=2
+#Fields=1
+1) soma1_inferiorcardiacnerve_coordinates, coordinate, rectangular cartesian, real, #Components=3
+x. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+y. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+z. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+Element: 9900
+ Nodes:
+1000081 1000001
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=2
+#Fields=1
+1) soma1_ventralansasubclavia_coordinates, coordinate, rectangular cartesian, real, #Components=3
+x. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+y. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+z. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+Element: 9901
+ Nodes:
+1000081 1000011
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=2
+#Fields=1
+1) soma2_ventralansasubclavia_coordinates, coordinate, rectangular cartesian, real, #Components=3
+x. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+y. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+z. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+Element: 9902
+ Nodes:
+1000091 1000011
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=2
+#Fields=1
+1) soma2_inferiorcardiacnerve_coordinates, coordinate, rectangular cartesian, real, #Components=3
+x. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+y. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+z. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+Element: 9903
+ Nodes:
+1000091 1000001
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=2
+#Fields=1
+1) soma5_inferiorcardiacnerve_coordinates, coordinate, rectangular cartesian, real, #Components=3
+x. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+y. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+z. c.Hermite, no modify, standard node based.
+  #Nodes=2
+ 1. #Values=2
+   Value labels: value d/ds1
+  2. #Values=2
+   Value labels: value d/ds1
+Element: 9904
+ Nodes:
+1000121 1000001
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+ Faces:
+ 1 2 3 4
+Element: 2
+ Faces:
+ 5 6 7 8
+Element: 3
+ Faces:
+ 9 10 1 5
+Element: 4
+ Faces:
+ 11 12 2 6
+Element: 5
+ Faces:
+ 3 7 9 11
+Element: 6
+ Faces:
+ 4 8 10 12
+Element: 7
+ Faces:
+ 2 13 14 15
+Element: 8
+ Faces:
+ 6 16 17 18
+Element: 9
+ Faces:
+ 19 20 13 16
+Element: 10
+ Faces:
+ 14 17 11 19
+Element: 11
+ Faces:
+ 15 18 12 20
+Element: 12
+ Faces:
+ 21 22 23 24
+Element: 13
+ Faces:
+ 25 26 6 21
+Element: 14
+ Faces:
+ 27 28 16 22
+Element: 15
+ Faces:
+ 17 23 25 27
+Element: 16
+ Faces:
+ 18 24 26 28
+Element: 17
+ Faces:
+ 29 30 31 32
+Element: 18
+ Faces:
+ 33 34 21 29
+Element: 19
+ Faces:
+ 35 36 22 30
+Element: 20
+ Faces:
+ 23 31 33 35
+Element: 21
+ Faces:
+ 24 32 34 36
+Element: 22
+ Faces:
+ 37 38 39 40
+Element: 23
+ Faces:
+ 41 42 29 37
+Element: 24
+ Faces:
+ 43 44 30 38
+Element: 25
+ Faces:
+ 31 39 41 43
+Element: 26
+ Faces:
+ 32 40 42 44
+Element: 27
+ Faces:
+ 45 46 47 48
+Element: 28
+ Faces:
+ 49 50 37 45
+Element: 29
+ Faces:
+ 51 52 38 46
+Element: 30
+ Faces:
+ 39 47 49 51
+Element: 31
+ Faces:
+ 40 48 50 52
+Element: 32
+ Faces:
+ 13 53 54 55
+Element: 33
+ Faces:
+ 16 56 57 58
+Element: 34
+ Faces:
+ 59 60 53 56
+Element: 35
+ Faces:
+ 54 57 19 59
+Element: 36
+ Faces:
+ 55 58 20 60
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=8
+#Fields=2
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  1. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+ y. c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  1. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+ z. c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  1. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+2) probability, field, rectangular cartesian, real, #Components=1
+1. c.Hermite*c.Hermite*c.Hermite, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  1. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=1
+   Value labels: d/ds3
+  0. #Values=3
+   Value labels: zero zero zero
+Element: 1
+ Faces:
+ 1 2 3 4 5 6
+ Nodes:
+ 1 2 7 8 25 26 31 32
+Element: 6
+ Faces:
+ 7 8 4 9 10 11
+ Nodes:
+ 7 8 13 14 31 32 37 38
+Element: 7
+ Faces:
+ 8 12 13 14 15 16
+ Nodes:
+ 8 9 14 15 32 33 38 39
+Element: 8
+ Faces:
+ 12 17 18 19 20 21
+ Nodes:
+ 9 10 15 16 33 34 39 40
+Element: 9
+ Faces:
+ 17 22 23 24 25 26
+ Nodes:
+ 10 11 16 17 34 35 40 41
+Element: 10
+ Faces:
+ 22 27 28 29 30 31
+ Nodes:
+ 11 12 17 18 35 36 41 42
+Element: 11
+ Faces:
+ 32 33 9 34 35 36
+ Nodes:
+ 13 14 19 20 37 38 43 44
+ Group name: left
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 19
+Node: 43
+Node: 13
+Node: 37
+Node: 7
+Node: 31
+Node: 1
+Node: 25
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 3
+Element: 4
+Element: 14
+Element: 15
+Element: 54
+Element: 55
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 7
+Element: 32
+ Group name: right
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 12
+Node: 36
+Node: 18
+Node: 42
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 47
+Element: 48
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 27
+ Group name: top
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node:	12
+Node:	26
+Node:	19
+Node:	20
+Node:	13
+Node:	14
+Node:	15
+Node:	16
+Node:	17
+Node:	18
+Node:	43
+Node:	44
+Node:	37
+Node:	38
+Node:	39
+Node:	40
+Node:	41
+Node:	42
+Node:	7
+Node:	31
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 	3
+Element: 	4
+Element: 	54
+Element: 	55
+Element: 	59
+Element: 	60
+Element: 	57
+Element: 	58
+Element: 	59
+Element: 	60
+Element: 	27
+Element: 	28
+Element: 	35
+Element: 	36
+Element: 	43
+Element: 	47
+Element: 	48
+Element: 	44
+Element: 	51
+Element: 	52
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 	1
+Element: 	33
+Element: 	34
+Element: 	14
+Element: 	19
+Element: 	24
+Element: 	29
+Element: 	32
+Element: 	27
+ Group name: bottom
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node:	1
+Node:	2
+Node:	8
+Node:	9
+Node:	10
+Node:	11
+Node:	12
+Node:	25
+Node:	26
+Node:	32
+Node:	33
+Node:	34
+Node:	35
+Node:	36
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 	9
+Element: 	10
+Element: 	7
+Element: 	8
+Element: 	25
+Element: 	26
+Element: 	33
+Element: 	34
+Element: 	41
+Element: 	42
+Element: 	49
+Element: 	50
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 	2
+Element: 	3
+Element: 	13
+Element: 	18
+Element: 	23
+Element: 	28
+Group name: body
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 32
+Node: 26
+Node: 25
+Node: 31
+Node: 37
+Node: 43
+Node: 44
+Node: 38
+Node: 39
+Node: 40
+Node: 41
+Node: 42
+Node: 36
+Node: 35
+Node: 34
+Node: 33
+Node: 8
+Node: 2
+Node: 1
+Node: 7
+Node: 13
+Node: 19
+Node: 20
+Node: 14
+Node: 15
+Node: 16
+Node: 17
+Node: 18
+Node: 12
+Node: 11
+Node: 10
+Node: 9
+Group name: markers
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1000001
+Node: 1000011
+Node: 1000021
+Node: 1000031
+Node: 1000041
+Node: 1000051
+Node: 1000061
+Node: 1000071
+Node: 1000081
+Node: 1000091
+Node: 1000101
+Node: 1000111
+Node: 1000121

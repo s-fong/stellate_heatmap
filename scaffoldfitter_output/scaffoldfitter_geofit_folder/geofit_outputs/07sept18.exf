@@ -1,0 +1,6684 @@
+EX Version: 2
+Region: /
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=3 (value,d/ds1,d/ds2)
+ y. #Values=3 (value,d/ds1,d/ds2)
+ z. #Values=3 (value,d/ds1,d/ds2)
+Node: 1
+  1.551565721947616e+03 -3.947895907139441e+02  1.714682420572079e+02
+ -2.057236514818640e+03  4.498758647030257e+00 -1.643970795773951e+02
+ -6.913133554248479e+01 -1.391089037271113e+00 -4.046251735592430e+00
+Node: 2
+  1.876853038117479e+03  5.434392397964381e+02  7.570134617869124e+01
+ -2.034284592187721e+03  6.164458753505309e+01  1.668447816776584e+02
+ -6.574513741014067e+01  1.004018871886734e+00  3.005247229099388e+00
+Node: 3
+  2.756458411810356e+03  5.299702995371558e+02 -9.312691947913260e+01
+ -1.970829298872491e+03 -3.935126161207543e+01  6.819611653503074e+01
+ -6.637621472210097e+01 -2.782986079197780e-01  2.256969218233387e+00
+Node: 4
+  3.095966346930597e+03  5.861755164367429e+02  7.458825327664604e+01
+ -2.047485450168904e+03 -5.751359290399738e+01  1.503102369708300e+02
+ -6.615820342953893e+01 -1.053544738432537e+00  3.540236675036142e+00
+Node: 5
+  1.302493929919360e+03  2.917806015293592e+02  4.409575852340452e+02
+ -1.760537592881606e+03 -4.363687431829651e+02  2.695025697364289e+02
+ -6.232890504255906e+01 -9.488215906930163e+00  7.588684774515939e+00
+Node: 6
+  1.950822416170246e+03  6.115566246586773e+02  6.794549817583814e+01
+ -1.870790167015574e+03 -6.747478769527049e+00  1.609798402773442e+02
+ -6.277715141285384e+01 -9.470737629396067e-01  2.991493132604786e+00
+Node: 7
+  2.672063494934917e+03  5.740239996978086e+02 -7.016536786617004e+01
+ -1.897045736266653e+03 -5.340254567732877e+01  6.770135371788757e+01
+ -6.404795685153002e+01 -1.349075252333276e+00  2.152975754121498e+00
+Node: 8
+  3.156573822190033e+03  6.099615968663751e+02  5.907085723188787e+01
+ -1.904677891562250e+03 -2.225246013983573e+01  1.500726824787485e+02
+ -6.274816080958204e+01 -8.551692629766030e-01  3.613705067227173e+00
+Node: 9
+  3.636936729723307e+03  2.804061731231743e+02  1.601696045272355e+02
+ -1.991202077570413e+03 -7.546881658050664e+01  2.901479689987971e+02
+ -6.429176264770274e+01 -1.247827193977104e+00  7.134549215470884e+00
+Node: 10
+  1.591090903094669e+03  2.469103636143213e+02  1.581880657968603e+02
+ -1.577050091683910e+03 -1.258873315730226e+02  1.004183228335751e+02
+ -5.765836429892182e+01 -2.235238642587905e+00  2.438209052672531e+00
+Node: 11
+  2.014666262827404e+03  5.924991663371309e+02  5.762117414052061e+01
+ -1.712420197613879e+03 -4.381665124410200e+01  1.605757625453380e+02
+ -5.984515831973349e+01 -1.272559819716756e+00  3.040649825599527e+00
+Node: 12
+  2.614097924327319e+03  5.708962043738635e+02 -5.503886265832848e+01
+ -1.825765605661612e+03 -6.466977118461750e+01  6.351856306457398e+01
+ -6.196780015827281e+01 -1.408234414127365e+00  1.786040261174139e+00
+Node: 13
+  3.200131710834702e+03  6.221671938804163e+02  4.927137149352974e+01
+ -1.757949492788566e+03  5.791359888273787e+01  1.518612487234327e+02
+ -5.899466559764141e+01  9.649105823865815e-01  4.110125923353492e+00
+Node: 14
+  1.551784317799044e+03 -3.940049630978138e+02  1.730344141073861e+02
+ -2.064808962607386e+03  5.049566710791339e+00 -1.643912492903604e+02
+  2.198616850912960e+00 -1.302973775858821e+00 -4.167652807143525e+00
+Node: 15
+  1.876129641352958e+03  5.380044023111127e+02  7.375661325710459e+01
+ -2.041753177674923e+03  6.302730729701801e+01  1.668345137436347e+02
+  5.514636667688865e+00  1.260114558536314e+00  3.126528730642924e+00
+Node: 16
+  2.748407399702176e+03  5.264376404721600e+02 -9.115183605103869e+01
+ -1.977757891602815e+03 -3.955192336434297e+01  6.760325936733278e+01
+  4.875694909235438e+00 -1.014795200142040e-01  2.359837186389793e+00
+Node: 17
+  3.086738612598836e+03  5.834050768012955e+02  7.414260047423303e+01
+ -2.056404386956478e+03 -5.851386232908061e+01  1.501151601029736e+02
+  5.132098874605856e+00 -1.065028653478336e+00  3.546559324876998e+00
+Node: 18
+  1.301061746632493e+03  2.933910863065109e+02  4.404601533514838e+02
+ -1.768212712195552e+03 -4.355919536011546e+02  2.687006197173624e+02
+  8.998145544412072e+00 -9.468233110590138e+00  7.596996500318063e+00
+Node: 19
+  1.948625406243055e+03  6.076142139588327e+02  6.708328555795215e+01
+ -1.878237080160844e+03 -6.056529289975785e+00  1.609906540889246e+02
+  8.480757020737531e+00 -1.034752547478995e+00  2.902414454153328e+00
+Node: 20
+  2.665259832349194e+03  5.701400740405434e+02 -6.927376659002795e+01
+ -1.904428913199453e+03 -5.399640518524517e+01  6.707793933835771e+01
+  7.273527783950533e+00 -1.308578867567009e+00  2.113460888358407e+00
+Node: 21
+  3.147152650604138e+03  6.073650517512082e+02  5.867509639475974e+01
+ -1.913820057333254e+03 -2.233528606587701e+01  1.496098698499346e+02
+  8.539521727819498e+00 -6.590674198656367e-01  3.605921115566560e+00
+Node: 22
+  3.624936460327842e+03  2.783058681665209e+02  1.594749333616261e+02
+ -2.001969463425973e+03 -7.491775977849744e+01  2.888314432190538e+02
+  6.955111406427673e+00 -1.399979813393570e+00  7.082118459000677e+00
+Node: 23
+  1.589218454606463e+03  2.475728464850962e+02  1.577811822216055e+02
+ -1.584661207256094e+03 -1.269468840850514e+02  1.009020515864481e+02
+  1.366157184319410e+01 -2.259332631079477e+00  2.525553080131453e+00
+Node: 24
+  2.012008473695805e+03  5.893830531463595e+02  5.758386534736529e+01
+ -1.719949545081334e+03 -4.341137979051511e+01  1.603701485356478e+02
+  1.142824820601068e+01 -1.329990223762107e+00  2.949634318132539e+00
+Node: 25
+  2.607708590062151e+03  5.676736847109902e+02 -5.484226160725321e+01
+ -1.833318991596260e+03 -6.523881241534239e+01  6.365189891351375e+01
+  9.364296931350292e+00 -1.369789084088152e+00  1.969213239606920e+00
+Node: 26
+  3.190749384188709e+03  6.211542325478024e+02  4.883282286532527e+01
+ -1.767542096893112e+03  5.721068510191638e+01  1.511563230124676e+02
+  1.230465796025414e+01  8.365333218091828e-01  4.124643721207931e+00
+Node: 27
+  1.289704013924962e+03 -5.126724384688180e+01 -1.465212290654559e+02
+ -1.299555034168969e+03  3.737248807199650e+02 -2.403061477805065e+01
+ -5.209302869983113e+01  8.080625235263630e+00 -1.091116761408406e-01
+Node: 28
+  1.148018987334734e+03 -1.598201255120642e+01 -1.386563855323244e+02
+ -1.320364655342079e+03  3.515363813631184e+02 -1.153094630196917e+01
+ -5.239833067304869e+01  8.493900435324850e+00 -2.887611268128909e-02
+Node: 29
+  1.096312203252752e+03 -5.693864605294873e+01 -2.974969288844529e+02
+ -1.244041914237130e+03 -2.127783226212068e+01 -3.444785812712382e+01
+ -4.987778759092276e+01  2.392382881988722e-01  8.279251330469908e-01
+Node: 30
+  7.924281708277856e+02  1.191692193405502e+02 -2.931139092925363e+02
+ -1.663596224784485e+03  1.809254314127028e+02  4.333129381820065e+01
+ -6.115230172751533e+01  4.773627056603781e+00  5.097650097199171e-01
+Node: 31
+  1.004538561191934e+03  1.200133118453880e+02 -1.366489749022304e+02
+ -1.322787698235925e+03  4.168626858141780e+02 -9.007918072281029e-01
+ -5.239269276998361e+01  1.061774924501396e+01  5.084539911175283e-01
+Node: 32
+  1.288214769984408e+03 -5.288585316863731e+01 -1.474386239477687e+02
+ -1.309249639579445e+03  3.708420375821784e+02 -2.366500832822685e+01
+  1.913569747070039e+01  8.205741283491289e+00 -1.645823777046873e-02
+Node: 33
+  1.145305489563614e+03 -1.718053091739046e+01 -1.395539259639903e+02
+ -1.329897574233396e+03  3.487191396489430e+02 -1.169468922066731e+01
+  1.879225856380942e+01  8.435069874840259e+00  2.018204535847490e-02
+Node: 34
+  1.093535964090601e+03 -5.560054141132203e+01 -2.948371086813469e+02
+ -1.253694759598109e+03 -2.042985104842612e+01 -3.313008158796298e+01
+  2.136143735805314e+01  2.166330172328674e-01  1.450982796022900e+00
+Node: 35
+  7.897388411443599e+02  1.202997001231895e+02 -2.939412716930265e+02
+ -1.671181149448634e+03  1.805720345629161e+02  4.393465713427494e+01
+  1.012727056994056e+01  4.665498698711037e+00  4.762696173223723e-01
+Node: 36
+  1.000551063961304e+03  1.137666892876417e+02 -1.379474587956813e+02
+ -1.332935210595471e+03  4.104352845183184e+02 -1.717729056156401e+00
+  1.888273676562698e+01  1.038764501998973e+01  4.230667876009409e-01
+Node: 37
+  5.857571282961667e+02 -4.610959830332113e+02  2.267695434631273e+02
+ -1.869795742207124e+03 -1.513957755305078e+02 -8.730154793586885e+01
+ -6.694888481051018e+01 -6.016078280824577e+00 -1.595156633244541e+00
+Node: 38
+  8.071752633090944e+02 -4.495693810676675e+02  2.185816187424938e+02
+ -1.957776022714415e+03 -1.309001242863178e+02 -8.777609175548125e+01
+ -6.865623763026645e+01 -5.385762867906910e+00 -1.656203929271554e+00
+Node: 39
+  5.943514620651545e+02 -8.002812533276382e+01  4.168012036842200e+02
+ -2.023628946609435e+03 -2.711386505007007e+01 -1.651038280315550e+02
+ -7.118346427396402e+01 -1.835814980512247e+00 -2.612194982400958e+00
+Node: 40
+  1.020503929439250e+03 -5.003273153317302e+02  2.133327324592111e+02
+ -2.050474182418130e+03 -1.066436459796602e+02 -8.917136068941660e+01
+ -7.037261737336641e+01 -4.891373305894051e+00 -1.579804746642830e+00
+Node: 41
+  5.846696327974621e+02 -4.596934400132122e+02  2.270564462220323e+02
+ -1.876707695839424e+03 -1.522547881702231e+02 -8.728334055447736e+01
+  4.475844239843224e+00 -5.785920024993611e+00 -1.535113280591017e+00
+Node: 42
+  8.061787077009968e+02 -4.489593816679487e+02  2.187698326322842e+02
+ -1.964732100089503e+03 -1.304785419355314e+02 -8.778477319083595e+01
+  2.808869020750620e+00 -5.287704856368659e+00 -1.746728283261658e+00
+Node: 43
+  5.944263656251280e+02 -7.921419510212780e+01  4.175055529656240e+02
+ -2.030810105302266e+03 -2.714964328021401e+01 -1.653675137751742e+02
+  5.261145449219136e-01 -5.568921149954389e-01 -3.112019791643216e+00
+Node: 44
+  1.019287744901551e+03 -5.006547492847930e+02  2.130451169214201e+02
+ -2.057264096104290e+03 -1.060565196918663e+02 -8.889964976943278e+01
+  1.119728651952177e+00 -4.830380450269828e+00 -1.411034124288163e+00
+#Fields=2
+1) marker_location, field, rectangular cartesian, element_xi, #Components=1, host mesh=mesh3d, host mesh dimension=3
+ 1. #Values=1 (value)
+2) marker_name, field, rectangular cartesian, string, #Components=1
+ 1. #Values=1 (value)
+Node: 45
+ 10  8.000000000000000e-01  0.000000000000000e+00  5.000000000000000e-01
+ "Inferior cardiac nerve"
+Node: 46
+ 12  8.000000000000000e-01  1.000000000000000e+00  5.000000000000000e-01
+ "Ventral ansa subclavia"
+Node: 47
+ 14  8.000000000000000e-01  0.000000000000000e+00  5.000000000000000e-01
+ "Dorsal ansa subclavia"
+Node: 48
+ 16  8.000000000000000e-01  1.000000000000000e+00  5.000000000000000e-01
+ "Cervical spinal nerve 8"
+Node: 49
+ 2  0.000000000000000e+00  0.000000000000000e+00  5.000000000000000e-01
+ "Thoracic spinal nerve 1"
+Node: 50
+ 3  0.000000000000000e+00  0.000000000000000e+00  5.000000000000000e-01
+ "Thoracic spinal nerve 2"
+Node: 51
+ 4  0.000000000000000e+00  0.000000000000000e+00  5.000000000000000e-01
+ "Thoracic spinal nerve 3"
+Node: 52
+ 4  1.000000000000000e+00  1.000000000000000e+00  5.000000000000000e-01
+ "Thoracic sympathetic nerve trunk"
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+Element: 70
+Element: 71
+Element: 72
+Element: 73
+Element: 74
+Element: 75
+Element: 76
+Element: 77
+Element: 78
+Element: 79
+Element: 80
+Element: 81
+Element: 82
+Element: 83
+Element: 84
+Element: 85
+Element: 86
+Element: 87
+Element: 88
+Element: 89
+Element: 90
+Element: 91
+Element: 92
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+ Faces:
+ 1 2 3 4
+Element: 2
+ Faces:
+ 5 6 7 8
+Element: 3
+ Faces:
+ 9 10 1 5
+Element: 4
+ Faces:
+ 11 12 2 6
+Element: 5
+ Faces:
+ 3 7 9 11
+Element: 6
+ Faces:
+ 4 8 10 12
+Element: 7
+ Faces:
+ 13 14 15 16
+Element: 8
+ Faces:
+ 17 18 5 13
+Element: 9
+ Faces:
+ 19 20 6 14
+Element: 10
+ Faces:
+ 7 15 17 19
+Element: 11
+ Faces:
+ 8 16 18 20
+Element: 12
+ Faces:
+ 21 22 23 24
+Element: 13
+ Faces:
+ 25 26 13 21
+Element: 14
+ Faces:
+ 27 28 14 22
+Element: 15
+ Faces:
+ 15 23 25 27
+Element: 16
+ Faces:
+ 16 24 26 28
+Element: 17
+ Faces:
+ 29 30 21 31
+Element: 18
+ Faces:
+ 32 33 22 31
+Element: 19
+ Faces:
+ 23 -1 29 32
+Element: 20
+ Faces:
+ 24 -1 30 33
+Element: 21
+ Faces:
+ 2 34 35 36
+Element: 22
+ Faces:
+ 6 37 38 39
+Element: 23
+ Faces:
+ 40 41 34 37
+Element: 24
+ Faces:
+ 35 38 11 40
+Element: 25
+ Faces:
+ 36 39 12 41
+Element: 26
+ Faces:
+ 14 42 43 44
+Element: 27
+ Faces:
+ 45 46 37 42
+Element: 28
+ Faces:
+ 38 43 19 45
+Element: 29
+ Faces:
+ 39 44 20 46
+Element: 30
+ Faces:
+ 22 47 48 49
+Element: 31
+ Faces:
+ 50 51 42 47
+Element: 32
+ Faces:
+ 43 48 27 50
+Element: 33
+ Faces:
+ 44 49 28 51
+Element: 34
+ Faces:
+ 52 53 47 31
+Element: 35
+ Faces:
+ 48 -1 32 52
+Element: 36
+ Faces:
+ 49 -1 33 53
+Element: 37
+ Faces:
+ 54 55 56 57
+Element: 38
+ Faces:
+ 58 59 34 54
+Element: 39
+ Faces:
+ 60 61 2 55
+Element: 40
+ Faces:
+ 35 56 58 60
+Element: 41
+ Faces:
+ 36 57 59 61
+Element: 42
+ Faces:
+ 62 63 54 64
+Element: 43
+ Faces:
+ 65 66 55 64
+Element: 44
+ Faces:
+ 56 -1 62 65
+Element: 45
+ Faces:
+ 57 -1 63 66
+Element: 46
+ Faces:
+ 2 67 68 69
+Element: 47
+ Faces:
+ 55 70 71 72
+Element: 48
+ Faces:
+ 73 74 67 70
+Element: 49
+ Faces:
+ 68 71 60 73
+Element: 50
+ Faces:
+ 69 72 61 74
+Element: 51
+ Faces:
+ 75 76 70 64
+Element: 52
+ Faces:
+ 71 -1 65 75
+Element: 53
+ Faces:
+ 72 -1 66 76
+Element: 54
+ Faces:
+ 77 78 79 80
+Element: 55
+ Faces:
+ 81 82 67 77
+Element: 56
+ Faces:
+ 83 84 2 78
+Element: 57
+ Faces:
+ 68 79 81 83
+Element: 58
+ Faces:
+ 69 80 82 84
+Element: 59
+ Faces:
+ 85 86 77 87
+Element: 60
+ Faces:
+ 88 89 78 87
+Element: 61
+ Faces:
+ 79 -1 85 88
+Element: 62
+ Faces:
+ 80 -1 86 89
+Element: 63
+ Faces:
+ 78 90 91 92
+Element: 64
+ Faces:
+ 93 94 1 90
+Element: 65
+ Faces:
+ 3 91 83 93
+Element: 66
+ Faces:
+ 4 92 84 94
+Element: 67
+ Faces:
+ 95 96 90 87
+Element: 68
+ Faces:
+ 91 -1 88 95
+Element: 69
+ Faces:
+ 92 -1 89 96
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  3. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  7. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  3. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  7. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  3. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  7. #Values=1
+   Value labels: d/ds1
+   Scale factor indices: 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 1
+ Faces:
+ 1 2 3 4 5 6
+ Nodes:
+ 1 2 5 6 14 15 18 19
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+Element: 2
+ Faces:
+ 2 7 8 9 10 11
+ Nodes:
+ 2 3 6 7 15 16 19 20
+Element: 3
+ Faces:
+ 7 12 13 14 15 16
+ Nodes:
+ 3 4 7 8 16 17 20 21
+#Scale factor sets=0
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+Element: 4
+ Faces:
+ 12 -1 17 18 19 20
+ Nodes:
+ 4 9 8 17 22 21
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  1. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  5. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  1. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  5. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  1. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=1
+   Value labels: value
+   Scale factor indices: 0
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  5. #Values=1
+   Value labels: d/ds2
+   Scale factor indices: 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 5
+ Faces:
+ 21 22 4 23 24 25
+ Nodes:
+ 5 6 10 11 18 19 23 24
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+Element: 6
+ Faces:
+ 22 26 9 27 28 29
+ Nodes:
+ 6 7 11 12 19 20 24 25
+Element: 7
+ Faces:
+ 26 30 14 31 32 33
+ Nodes:
+ 7 8 12 13 20 21 25 26
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+Element: 8
+ Faces:
+ 30 -1 18 34 35 36
+ Nodes:
+ 8 9 13 21 22 26
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 9
+ Faces:
+ 21 37 38 39 40 41
+ Nodes:
+ 10 27 5 28 23 32 18 33
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+Element: 10
+ Faces:
+ 37 -1 42 43 44 45
+ Nodes:
+ 27 29 28 32 34 33
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  1+1. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 1
+  5+5. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 1+1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 11
+ Faces:
+ 46 47 39 48 49 50
+ Nodes:
+ 5 28 30 31 18 33 35 36
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+Element: 12
+ Faces:
+ 47 -1 43 51 52 53
+ Nodes:
+ 28 29 31 33 34 36
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  3+3. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 1 1
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  7+7. #Values=1
+   Value labels: d/ds1+d/ds2
+   Scale factor indices: 0+0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 13
+ Faces:
+ 46 54 55 56 57 58
+ Nodes:
+ 30 37 5 38 35 41 18 42
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=0
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based.
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  2. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds2
+  0. #Values=2
+   Value labels: zero zero
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+  0. #Values=1
+   Value labels: zero
+  5. #Values=2
+   Value labels: value d/ds1
+  0. #Values=2
+   Value labels: zero zero
+Element: 14
+ Faces:
+ 54 -1 59 60 61 62
+ Nodes:
+ 37 39 38 41 43 42
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=8
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=8
+  1. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=3
+   Value labels: value d/ds2 d/ds1
+   Scale factor indices: 0 1 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  7. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  8. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+Element: 15
+ Faces:
+ 1 63 56 64 65 66
+ Nodes:
+ 5 38 1 40 18 42 14 44
+ Scale factors:
+ -1.000000000000000e+00
+#Scale factor sets=1
+  scaling1, #Scale factors=1, identifiers="global_general(1)"
+#Nodes=6
+#Fields=1
+1) coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ y. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+ z. c.Hermite*c.Hermite*l.Lagrange, no modify, standard node based. scale factor set=scaling1
+  #Nodes=6
+  1. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  3. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  2. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  4. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds1
+   Scale factor indices: 0 0
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+  6. #Values=3
+   Value labels: value d/ds1 d/ds2
+   Scale factor indices: 0 0 0
+  0. #Values=1
+   Value labels: zero
+   Scale factor indices: 0
+  5. #Values=2
+   Value labels: value d/ds2
+   Scale factor indices: 0 1
+  0. #Values=2
+   Value labels: zero zero
+   Scale factor indices: 0 0
+Element: 16
+ Faces:
+ 63 -1 60 67 68 69
+ Nodes:
+ 38 39 40 42 43 44
+ Scale factors:
+ -1.000000000000000e+00
+ Group name: cervicothoracic ganglion
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 2
+Node: 3
+Node: 4
+Node: 5
+Node: 6
+Node: 7
+Node: 8
+Node: 9
+Node: 10
+Node: 11
+Node: 12
+Node: 13
+Node: 14
+Node: 15
+Node: 16
+Node: 17
+Node: 18
+Node: 19
+Node: 20
+Node: 21
+Node: 22
+Node: 23
+Node: 24
+Node: 25
+Node: 26
+Node: 27
+Node: 28
+Node: 29
+Node: 30
+Node: 31
+Node: 32
+Node: 33
+Node: 34
+Node: 35
+Node: 36
+Node: 37
+Node: 38
+Node: 39
+Node: 40
+Node: 41
+Node: 42
+Node: 43
+Node: 44
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+Element: 70
+Element: 71
+Element: 72
+Element: 73
+Element: 74
+Element: 75
+Element: 76
+Element: 77
+Element: 78
+Element: 79
+Element: 80
+Element: 81
+Element: 82
+Element: 83
+Element: 84
+Element: 85
+Element: 86
+Element: 87
+Element: 88
+Element: 89
+Element: 90
+Element: 91
+Element: 92
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+ Group name: cmiss_selection
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 2
+Node: 3
+Node: 4
+Node: 9
+Node: 14
+Node: 15
+Node: 16
+Node: 17
+Node: 22
+Node: 39
+Node: 40
+Node: 43
+Node: 44
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 5
+Element: 9
+Element: 10
+Element: 13
+Element: 17
+Element: 18
+Element: 21
+Element: 25
+Element: 26
+Element: 29
+Element: 30
+Element: 31
+Element: 87
+Element: 90
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 3
+Element: 8
+Element: 13
+Element: 17
+Element: 64
+Element: 67
+ Group name: marker
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 45
+Node: 46
+Node: 47
+Node: 48
+Node: 49
+Node: 50
+Node: 51
+Node: 52
+ Group name: stellate arm 1
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 2
+Node: 3
+Node: 4
+Node: 5
+Node: 6
+Node: 7
+Node: 8
+Node: 9
+Node: 10
+Node: 11
+Node: 12
+Node: 13
+Node: 14
+Node: 15
+Node: 16
+Node: 17
+Node: 18
+Node: 19
+Node: 20
+Node: 21
+Node: 22
+Node: 23
+Node: 24
+Node: 25
+Node: 26
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+Element: 17
+Element: 18
+Element: 19
+Element: 20
+Element: 21
+Element: 22
+Element: 23
+Element: 24
+Element: 25
+Element: 26
+Element: 27
+Element: 28
+Element: 29
+Element: 30
+Element: 31
+Element: 32
+Element: 33
+Element: 34
+Element: 35
+Element: 36
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 5
+Element: 6
+Element: 7
+Element: 8
+ Group name: stellate arm 2
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 5
+Node: 10
+Node: 18
+Node: 23
+Node: 27
+Node: 28
+Node: 29
+Node: 30
+Node: 31
+Node: 32
+Node: 33
+Node: 34
+Node: 35
+Node: 36
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 2
+Element: 34
+Element: 35
+Element: 36
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+Element: 70
+Element: 71
+Element: 72
+Element: 73
+Element: 74
+Element: 75
+Element: 76
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 21
+Element: 37
+Element: 38
+Element: 39
+Element: 40
+Element: 41
+Element: 42
+Element: 43
+Element: 44
+Element: 45
+Element: 46
+Element: 47
+Element: 48
+Element: 49
+Element: 50
+Element: 51
+Element: 52
+Element: 53
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 9
+Element: 10
+Element: 11
+Element: 12
+ Group name: stellate arm 3
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 1
+Node: 5
+Node: 14
+Node: 18
+Node: 30
+Node: 35
+Node: 37
+Node: 38
+Node: 39
+Node: 40
+Node: 41
+Node: 42
+Node: 43
+Node: 44
+!#mesh mesh1d, dimension=1, nodeset=nodes
+Shape. Dimension=1, line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 2
+Element: 3
+Element: 4
+Element: 67
+Element: 68
+Element: 69
+Element: 77
+Element: 78
+Element: 79
+Element: 80
+Element: 81
+Element: 82
+Element: 83
+Element: 84
+Element: 85
+Element: 86
+Element: 87
+Element: 88
+Element: 89
+Element: 90
+Element: 91
+Element: 92
+Element: 93
+Element: 94
+Element: 95
+Element: 96
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 1
+Element: 46
+Element: 54
+Element: 55
+Element: 56
+Element: 57
+Element: 58
+Element: 59
+Element: 60
+Element: 61
+Element: 62
+Element: 63
+Element: 64
+Element: 65
+Element: 66
+Element: 67
+Element: 68
+Element: 69
+!#mesh mesh3d, dimension=3, face mesh=mesh2d, nodeset=nodes
+Shape. Dimension=3, line*line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 13
+Element: 14
+Element: 15
+Element: 16
+ Group name: stellate face 1-2
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 23
+Element: 27
+Element: 31
+Element: 34
+Element: 38
+Element: 42
+ Group name: stellate face 2-3
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 48
+Element: 51
+Element: 55
+Element: 59
+ Group name: stellate face 3-1
+!#mesh mesh2d, dimension=2, face mesh=mesh1d, nodeset=nodes
+Shape. Dimension=2, line*line
+#Scale factor sets=0
+#Nodes=0
+#Fields=0
+Element: 3
+Element: 8
+Element: 13
+Element: 17
+Element: 64
+Element: 67
+Region: /raw_data
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=1
+1) data_coordinates, coordinate, rectangular cartesian, real, #Components=3
+ x. #Values=1 (value)
+ y. #Values=1 (value)
+ z. #Values=1 (value)
+Node: 1
+  9.597230223124864e+02
+ -1.317819624016651e+03
+ -5.840000000000000e+00
+Node: 2
+  9.140392064812917e+02
+ -1.501799963648638e+03
+ -5.840000000000000e+00
+Node: 3
+  7.560138890679725e+02
+ -1.687026386052192e+03
+ -5.840000000000000e+00
+Node: 4
+  5.915768835124828e+02
+ -1.855615090608410e+03
+ -5.840000000000000e+00
+Node: 5
+  5.104137834191620e+02
+ -1.907939273193918e+03
+ -5.840000000000000e+00
+Node: 6
+  5.613905189888251e+02
+ -2.045079215700325e+03
+ -5.840000000000000e+00
+Node: 7
+  7.325285277919822e+02
+ -2.057475733069752e+03
+ -5.840000000000000e+00
+Node: 8
+  1.217974496870373e+03
+ -2.051911498572334e+03
+ -5.840000000000000e+00
+Node: 9
+  1.657456335185346e+03
+ -2.065991008197752e+03
+ -5.840000000000000e+00
+Node: 10
+  2.020558045403159e+03
+ -2.040682619531162e+03
+ -5.840000000000000e+00
+Node: 11
+  2.256427662730407e+03
+ -1.963095228017478e+03
+ -5.840000000000000e+00
+Node: 12
+  2.425115823135021e+03
+ -1.959233798320188e+03
+ -5.840000000000000e+00
+Node: 13
+  2.410861911007443e+03
+ -1.773516286520521e+03
+ -5.840000000000000e+00
+Node: 14
+  2.083165396397638e+03
+ -1.722072822284665e+03
+ -5.840000000000000e+00
+Node: 15
+  1.696498830064286e+03
+ -1.616877183211671e+03
+ -5.840000000000000e+00
+Node: 16
+  1.421237816655483e+03
+ -1.478279429271867e+03
+ -5.840000000000000e+00
+Node: 17
+  1.237914064946789e+03
+ -1.300405095655548e+03
+ -5.840000000000000e+00
+Node: 18
+  1.211098136922604e+03
+ -1.245736880903266e+03
+ -5.840000000000000e+00
+Node: 19
+  1.045405094224333e+03
+ -1.301983129679418e+03
+ -5.840000000000000e+00
+Node: 20
+  9.706148128193146e+02
+ -1.304488086237558e+03
+ -8.760000000000000e+00
+Node: 21
+  9.539661864028226e+02
+ -1.310908774553003e+03
+ -8.760000000000000e+00
+Node: 22
+  9.433077953990169e+02
+ -1.422099101026172e+03
+ -8.760000000000000e+00
+Node: 23
+  8.715605013274836e+02
+ -1.543456729107035e+03
+ -8.760000000000000e+00
+Node: 24
+  7.945427398515193e+02
+ -1.636271211367248e+03
+ -8.760000000000000e+00
+Node: 25
+  7.082656707076746e+02
+ -1.700130051318724e+03
+ -8.760000000000000e+00
+Node: 26
+  6.185720311280025e+02
+ -1.799735992501727e+03
+ -8.760000000000000e+00
+Node: 27
+  5.752123387211524e+02
+ -1.875735395620326e+03
+ -8.760000000000000e+00
+Node: 28
+  4.984107578945084e+02
+ -1.924479417638708e+03
+ -8.760000000000000e+00
+Node: 29
+  4.656597285672660e+02
+ -1.973437711910528e+03
+ -8.760000000000000e+00
+Node: 30
+  4.985156199283353e+02
+ -2.048726347194146e+03
+ -8.760000000000000e+00
+Node: 31
+  5.486170433337771e+02
+ -2.069552039805645e+03
+ -8.760000000000000e+00
+Node: 32
+  6.738416034956556e+02
+ -2.017433129300301e+03
+ -8.760000000000000e+00
+Node: 33
+  8.345861756705843e+02
+ -2.012810249645890e+03
+ -8.760000000000000e+00
+Node: 34
+  1.056966828616923e+03
+ -2.034127031653501e+03
+ -8.760000000000000e+00
+Node: 35
+  1.211836935982149e+03
+ -2.048972443223529e+03
+ -8.760000000000000e+00
+Node: 36
+  1.481869163935386e+03
+ -2.074856970775923e+03
+ -8.760000000000000e+00
+Node: 37
+  1.629947812377822e+03
+ -2.077026504242243e+03
+ -8.760000000000000e+00
+Node: 38
+  1.811683575691431e+03
+ -2.062390912938163e+03
+ -8.760000000000000e+00
+Node: 39
+  1.972429102064301e+03
+ -2.057758078912537e+03
+ -8.760000000000000e+00
+Node: 40
+  2.141714168096796e+03
+ -2.005854394858573e+03
+ -8.760000000000000e+00
+Node: 41
+  2.267103272587914e+03
+ -1.993834150480217e+03
+ -8.760000000000000e+00
+Node: 42
+  2.448303720964938e+03
+ -1.943072641361933e+03
+ -8.760000000000000e+00
+Node: 43
+  2.541538701756694e+03
+ -1.931968436898724e+03
+ -8.760000000000000e+00
+Node: 44
+  2.533264116472646e+03
+ -1.851029563430056e+03
+ -8.760000000000000e+00
+Node: 45
+  2.081761079581377e+03
+ -1.711570903684735e+03
+ -8.760000000000000e+00
+Node: 46
+  1.796057855818088e+03
+ -1.640093015976268e+03
+ -8.760000000000000e+00
+Node: 47
+  1.507153288070351e+03
+ -1.560301723628711e+03
+ -8.760000000000000e+00
+Node: 48
+  1.326053249739665e+03
+ -1.442754843123000e+03
+ -8.760000000000000e+00
+Node: 49
+  1.279212852614085e+03
+ -1.346094291722142e+03
+ -8.760000000000000e+00
+Node: 50
+  1.216115462619729e+03
+ -1.251873634348612e+03
+ -8.760000000000000e+00
+Node: 51
+  1.106993305368601e+03
+ -1.261454938897581e+03
+ -8.760000000000000e+00
+Node: 52
+  9.912352333506492e+02
+ -1.298448122900674e+03
+ -8.760000000000000e+00
+Node: 53
+  9.629888412274341e+02
+ -1.312989207180106e+03
+ -1.460000000000000e+01
+Node: 54
+  9.208704606024439e+02
+ -1.501379883736905e+03
+ -1.460000000000000e+01
+Node: 55
+  8.561269893112557e+02
+ -1.591382747164505e+03
+ -1.460000000000000e+01
+Node: 56
+  7.713400943741830e+02
+ -1.639381411176431e+03
+ -1.460000000000000e+01
+Node: 57
+  6.926031171452097e+02
+ -1.708001449917633e+03
+ -1.460000000000000e+01
+Node: 58
+  6.507644162567181e+02
+ -1.768133585319292e+03
+ -1.460000000000000e+01
+Node: 59
+  6.446718624018121e+02
+ -1.831692245527992e+03
+ -1.460000000000000e+01
+Node: 60
+  5.873167556612942e+02
+ -1.886328732702625e+03
+ -1.460000000000000e+01
+Node: 61
+  5.025398150954368e+02
+ -1.934328350912493e+03
+ -1.460000000000000e+01
+Node: 62
+  4.550328756753473e+02
+ -1.969857363098817e+03
+ -1.460000000000000e+01
+Node: 63
+  5.070033338021168e+02
+ -2.055024983014450e+03
+ -1.460000000000000e+01
+Node: 64
+  7.332618713305058e+02
+ -2.036620548888006e+03
+ -1.460000000000000e+01
+Node: 65
+  1.007191892608224e+03
+ -2.022785768702228e+03
+ -1.460000000000000e+01
+Node: 66
+  1.322536299451126e+03
+ -2.036980636538826e+03
+ -1.460000000000000e+01
+Node: 67
+  1.481437927158485e+03
+ -2.052212498275062e+03
+ -1.460000000000000e+01
+Node: 68
+  1.669274334234210e+03
+ -2.058193098318750e+03
+ -1.460000000000000e+01
+Node: 69
+  1.859950314860312e+03
+ -2.076470759883468e+03
+ -1.460000000000000e+01
+Node: 70
+  2.014335833342970e+03
+ -2.055185070257782e+03
+ -1.460000000000000e+01
+Node: 71
+  2.157392920737764e+03
+ -1.984713997141800e+03
+ -1.460000000000000e+01
+Node: 72
+  2.366457562541861e+03
+ -1.936603379318655e+03
+ -1.460000000000000e+01
+Node: 73
+  2.594783315094350e+03
+ -1.938448595116201e+03
+ -1.460000000000000e+01
+Node: 74
+  2.835416083539084e+03
+ -1.937455191561312e+03
+ -1.460000000000000e+01
+Node: 75
+  2.991806272156605e+03
+ -2.020597278401711e+03
+ -1.460000000000000e+01
+Node: 76
+  3.351394683743852e+03
+ -2.075117901583774e+03
+ -1.460000000000000e+01
+Node: 77
+  3.612647872719921e+03
+ -2.068084534692000e+03
+ -1.460000000000000e+01
+Node: 78
+  3.677391344011109e+03
+ -1.978081671264401e+03
+ -1.460000000000000e+01
+Node: 79
+  3.661012442959901e+03
+ -1.856242864226764e+03
+ -1.460000000000000e+01
+Node: 80
+  3.543198020555128e+03
+ -1.788823409516497e+03
+ -1.460000000000000e+01
+Node: 81
+  3.368799895738172e+03
+ -1.768097807949119e+03
+ -1.460000000000000e+01
+Node: 82
+  3.115109570013229e+03
+ -1.779864418912856e+03
+ -1.460000000000000e+01
+Node: 83
+  2.930256417876749e+03
+ -1.826287592492519e+03
+ -1.460000000000000e+01
+Node: 84
+  2.693389217268752e+03
+ -1.871733135465742e+03
+ -1.460000000000000e+01
+Node: 85
+  2.407206679012693e+03
+ -1.804207545521490e+03
+ -1.460000000000000e+01
+Node: 86
+  1.918278187827979e+03
+ -1.677164407147792e+03
+ -1.460000000000000e+01
+Node: 87
+  1.628885305414197e+03
+ -1.601314503995295e+03
+ -1.460000000000000e+01
+Node: 88
+  1.418402944731903e+03
+ -1.496954136797740e+03
+ -1.460000000000000e+01
+Node: 89
+  1.274568634431540e+03
+ -1.282721981227156e+03
+ -1.460000000000000e+01
+Node: 90
+  1.214056728249262e+03
+ -1.244845120082292e+03
+ -1.460000000000000e+01
+Node: 91
+  1.068005477346066e+03
+ -1.262921419748197e+03
+ -1.460000000000000e+01
+Node: 92
+  9.681028102779577e+02
+ -1.301454549814138e+03
+ -1.460000000000000e+01
+Node: 93
+  9.869234413670520e+02
+ -1.275833504843095e+03
+ -1.752000000000000e+01
+Node: 94
+  9.310386440227535e+02
+ -1.398761896298392e+03
+ -1.752000000000000e+01
+Node: 95
+  8.605733894840045e+02
+ -1.548350671621907e+03
+ -1.752000000000000e+01
+Node: 96
+  8.279840418921781e+02
+ -1.637437495134362e+03
+ -1.752000000000000e+01
+Node: 97
+  7.360159628804817e+02
+ -1.676721166588266e+03
+ -1.752000000000000e+01
+Node: 98
+  6.695750929745972e+02
+ -1.742511586150307e+03
+ -1.752000000000000e+01
+Node: 99
+  6.154402847630167e+02
+ -1.805473340731127e+03
+ -1.752000000000000e+01
+Node: 100
+  6.085862809509902e+02
+ -1.876975589169514e+03
+ -1.752000000000000e+01
+Node: 101
+  5.448104858950278e+02
+ -1.914963449927654e+03
+ -1.752000000000000e+01
+Node: 102
+  4.719489276736990e+02
+ -1.964105243073203e+03
+ -1.752000000000000e+01
+Node: 103
+  5.065003092535818e+02
+ -2.063626230964810e+03
+ -1.752000000000000e+01
+Node: 104
+  5.835072060922673e+02
+ -2.054974737493967e+03
+ -1.752000000000000e+01
+Node: 105
+  7.700368939030716e+02
+ -2.032772053755194e+03
+ -1.752000000000000e+01
+Node: 106
+  1.137406257786647e+03
+ -2.047935552024959e+03
+ -1.752000000000000e+01
+Node: 107
+  1.320354830832384e+03
+ -2.021381303390725e+03
+ -1.752000000000000e+01
+Node: 108
+  1.481314673390569e+03
+ -2.056851906481794e+03
+ -1.752000000000000e+01
+Node: 109
+  1.599346230642604e+03
+ -2.080190946579014e+03
+ -1.752000000000000e+01
+Node: 110
+  1.781697898060460e+03
+ -2.101678952301455e+03
+ -1.752000000000000e+01
+Node: 111
+  1.970512889940567e+03
+ -2.055635549502410e+03
+ -1.752000000000000e+01
+Node: 112
+  2.093874596892446e+03
+ -2.023369471991830e+03
+ -1.752000000000000e+01
+Node: 113
+  2.223112677049910e+03
+ -1.971615194514381e+03
+ -1.752000000000000e+01
+Node: 114
+  2.377107516182793e+03
+ -1.954300344805597e+03
+ -1.752000000000000e+01
+Node: 115
+  2.483439871739619e+03
+ -1.932426749725304e+03
+ -1.752000000000000e+01
+Node: 116
+  2.624377153592292e+03
+ -1.925885107425368e+03
+ -1.752000000000000e+01
+Node: 117
+  2.747903404873411e+03
+ -1.933717696041777e+03
+ -1.752000000000000e+01
+Node: 118
+  2.873116146200069e+03
+ -1.965771728697018e+03
+ -1.752000000000000e+01
+Node: 119
+  2.993760187784004e+03
+ -2.045487290730373e+03
+ -1.752000000000000e+01
+Node: 120
+  3.299628152111764e+03
+ -2.074806930871281e+03
+ -1.752000000000000e+01
+Node: 121
+  3.427507876684227e+03
+ -2.079038495980192e+03
+ -1.752000000000000e+01
+Node: 122
+  3.640544312603167e+03
+ -2.031308603135608e+03
+ -1.752000000000000e+01
+Node: 123
+  3.673686975478126e+03
+ -1.978369514575672e+03
+ -1.752000000000000e+01
+Node: 124
+  3.673195250886289e+03
+ -1.858053607452275e+03
+ -1.752000000000000e+01
+Node: 125
+  3.539874377000705e+03
+ -1.785139458712924e+03
+ -1.752000000000000e+01
+Node: 126
+  3.293583324395588e+03
+ -1.761530693250421e+03
+ -1.752000000000000e+01
+Node: 127
+  3.034017579663000e+03
+ -1.792775549809812e+03
+ -1.752000000000000e+01
+Node: 128
+  2.869033352471949e+03
+ -1.841103302480218e+03
+ -1.752000000000000e+01
+Node: 129
+  2.608542567650942e+03
+ -1.840183126771091e+03
+ -1.752000000000000e+01
+Node: 130
+  2.470652039824693e+03
+ -1.814940461781070e+03
+ -1.752000000000000e+01
+Node: 131
+  2.251619230913617e+03
+ -1.757859944785127e+03
+ -1.752000000000000e+01
+Node: 132
+  1.958644279536827e+03
+ -1.677668431108383e+03
+ -1.752000000000000e+01
+Node: 133
+  1.664137428072522e+03
+ -1.613353185321854e+03
+ -1.752000000000000e+01
+Node: 134
+  1.485974689616770e+03
+ -1.548165489964927e+03
+ -1.752000000000000e+01
+Node: 135
+  1.329039231691449e+03
+ -1.428896531112383e+03
+ -1.752000000000000e+01
+Node: 136
+  1.239842362763660e+03
+ -1.272009527911102e+03
+ -1.752000000000000e+01
+Node: 137
+  1.178948777404881e+03
+ -1.238114415252296e+03
+ -1.752000000000000e+01
+Node: 138
+  1.000361723625822e+03
+ -1.261088503319404e+03
+ -1.752000000000000e+01
+Node: 139
+  9.869234413670520e+02
+ -1.275833504843095e+03
+ -1.752000000000000e+01
+Node: 140
+  9.843682497600302e+02
+ -1.269792122894285e+03
+ -2.044000000000000e+01
+Node: 141
+  8.943987472356246e+02
+ -1.497616787747568e+03
+ -2.044000000000000e+01
+Node: 142
+  8.324977120886372e+02
+ -1.599886849582552e+03
+ -2.044000000000000e+01
+Node: 143
+  7.526413312602371e+02
+ -1.680394315950521e+03
+ -2.044000000000000e+01
+Node: 144
+  6.917169725217495e+02
+ -1.730660283685202e+03
+ -2.044000000000000e+01
+Node: 145
+  6.538619285151984e+02
+ -1.791154189520932e+03
+ -2.044000000000000e+01
+Node: 146
+  6.362366256902068e+02
+ -1.849578971936678e+03
+ -2.044000000000000e+01
+Node: 147
+  5.410989742035899e+02
+ -1.880532192602887e+03
+ -2.044000000000000e+01
+Node: 148
+  4.862145788019865e+02
+ -1.951418580868904e+03
+ -2.044000000000000e+01
+Node: 149
+  5.557336113097278e+02
+ -2.062277910287711e+03
+ -2.044000000000000e+01
+Node: 150
+  7.925292229233361e+02
+ -2.016845596671330e+03
+ -2.044000000000000e+01
+Node: 151
+  1.089973330330698e+03
+ -2.049366038990548e+03
+ -2.044000000000000e+01
+Node: 152
+  1.259804619868935e+03
+ -2.033579272577513e+03
+ -2.044000000000000e+01
+Node: 153
+  1.502424014170107e+03
+ -2.052837839734299e+03
+ -2.044000000000000e+01
+Node: 154
+  1.685086725968017e+03
+ -2.070347371956307e+03
+ -2.044000000000000e+01
+Node: 155
+  1.857747634685416e+03
+ -2.066856712866362e+03
+ -2.044000000000000e+01
+Node: 156
+  2.148450011094186e+03
+ -2.002552059455482e+03
+ -2.044000000000000e+01
+Node: 157
+  2.284068007884293e+03
+ -1.967452545973975e+03
+ -2.044000000000000e+01
+Node: 158
+  2.435181547586055e+03
+ -1.937856726694826e+03
+ -2.044000000000000e+01
+Node: 159
+  2.683285681545096e+03
+ -1.941607888172859e+03
+ -2.044000000000000e+01
+Node: 160
+  2.874663385901028e+03
+ -1.951936236320244e+03
+ -2.044000000000000e+01
+Node: 161
+  2.966325738854345e+03
+ -2.040868425942796e+03
+ -2.044000000000000e+01
+Node: 162
+  3.160523108018224e+03
+ -2.063491927215328e+03
+ -2.044000000000000e+01
+Node: 163
+  3.315022444776104e+03
+ -2.082310087098140e+03
+ -2.044000000000000e+01
+Node: 164
+  3.504321071340838e+03
+ -2.072407739866024e+03
+ -2.044000000000000e+01
+Node: 165
+  3.661690755028805e+03
+ -2.019361880876378e+03
+ -2.044000000000000e+01
+Node: 166
+  3.730558701996978e+03
+ -1.969857363098817e+03
+ -2.044000000000000e+01
+Node: 167
+  3.592982900402382e+03
+ -1.816409745601495e+03
+ -2.044000000000000e+01
+Node: 168
+  3.433215004635953e+03
+ -1.769028531155604e+03
+ -2.044000000000000e+01
+Node: 169
+  3.252991232667429e+03
+ -1.767785946173586e+03
+ -2.044000000000000e+01
+Node: 170
+  2.991233589998239e+03
+ -1.822840292089860e+03
+ -2.044000000000000e+01
+Node: 171
+  2.844852340170500e+03
+ -1.844883202489098e+03
+ -2.044000000000000e+01
+Node: 172
+  2.671811660672482e+03
+ -1.852335701322671e+03
+ -2.044000000000000e+01
+Node: 173
+  2.372288475473922e+03
+ -1.799584563623953e+03
+ -2.044000000000000e+01
+Node: 174
+  2.041607751726930e+03
+ -1.695747280135961e+03
+ -2.044000000000000e+01
+Node: 175
+  1.716957036945608e+03
+ -1.612529462981362e+03
+ -2.044000000000000e+01
+Node: 176
+  1.569093614954551e+03
+ -1.566299423644425e+03
+ -2.044000000000000e+01
+Node: 177
+  1.435439879550600e+03
+ -1.497381748752054e+03
+ -2.044000000000000e+01
+Node: 178
+  1.309565188047095e+03
+ -1.389126857689814e+03
+ -2.044000000000000e+01
+Node: 179
+  1.250047958619865e+03
+ -1.299267719582961e+03
+ -2.044000000000000e+01
+Node: 180
+  1.232307839389831e+03
+ -1.233444618245329e+03
+ -2.044000000000000e+01
+Node: 181
+  1.115242093909018e+03
+ -1.242264472837177e+03
+ -2.044000000000000e+01
+Node: 182
+  1.020865892379521e+03
+ -1.265274105273701e+03
+ -2.044000000000000e+01
+Node: 183
+  9.853668237824714e+02
+ -1.274046820289130e+03
+ -2.336000000000000e+01
+Node: 184
+  9.201525402975257e+02
+ -1.452277330947506e+03
+ -2.336000000000000e+01
+Node: 185
+  8.748626348698549e+02
+ -1.548203476842942e+03
+ -2.336000000000000e+01
+Node: 186
+  8.104662086518165e+02
+ -1.634271501046735e+03
+ -2.336000000000000e+01
+Node: 187
+  7.426423034287942e+02
+ -1.756095626655330e+03
+ -2.336000000000000e+01
+Node: 188
+  5.877689266037727e+02
+ -1.865577192002263e+03
+ -2.336000000000000e+01
+Node: 189
+  4.876064446097183e+02
+ -1.948216783003131e+03
+ -2.336000000000000e+01
+Node: 190
+  5.445007374595714e+02
+ -2.065962885873312e+03
+ -2.336000000000000e+01
+Node: 191
+  7.445611594639054e+02
+ -2.028993925278675e+03
+ -2.336000000000000e+01
+Node: 192
+  1.029373886233838e+03
+ -2.028227198550460e+03
+ -2.336000000000000e+01
+Node: 193
+  1.264220825011864e+03
+ -2.046720628372696e+03
+ -2.336000000000000e+01
+Node: 194
+  1.428676872975599e+03
+ -2.046451763815767e+03
+ -2.336000000000000e+01
+Node: 195
+  1.563787553478761e+03
+ -2.059403092472407e+03
+ -2.336000000000000e+01
+Node: 196
+  1.725959251571134e+03
+ -2.082964992604535e+03
+ -2.336000000000000e+01
+Node: 197
+  1.877185151950086e+03
+ -2.053349806389095e+03
+ -2.336000000000000e+01
+Node: 198
+  2.134013729438272e+03
+ -2.009787567174441e+03
+ -2.336000000000000e+01
+Node: 199
+  2.308156262987018e+03
+ -1.950282698388570e+03
+ -2.336000000000000e+01
+Node: 200
+  2.409034696197563e+03
+ -1.943909417209638e+03
+ -2.336000000000000e+01
+Node: 201
+  2.450296400200604e+03
+ -1.931821444560537e+03
+ -2.336000000000000e+01
+Node: 202
+  2.554765902547431e+03
+ -1.929800682475009e+03
+ -2.336000000000000e+01
+Node: 203
+  2.712030812065326e+03
+ -1.920815871162118e+03
+ -2.336000000000000e+01
+Node: 204
+  2.821776919396034e+03
+ -1.947379026580041e+03
+ -2.336000000000000e+01
+Node: 205
+  2.948126154402604e+03
+ -2.051731391734141e+03
+ -2.336000000000000e+01
+Node: 206
+  3.208717437133704e+03
+ -2.052651155051465e+03
+ -2.336000000000000e+01
+Node: 207
+  3.460603681677998e+03
+ -2.060753056641355e+03
+ -2.336000000000000e+01
+Node: 208
+  3.598762070405525e+03
+ -2.041910123636821e+03
+ -2.336000000000000e+01
+Node: 209
+  3.674103340139043e+03
+ -2.009029140151812e+03
+ -2.336000000000000e+01
+Node: 210
+  3.632182092229298e+03
+ -1.860631904754081e+03
+ -2.336000000000000e+01
+Node: 211
+  3.515461981300013e+03
+ -1.781272387967149e+03
+ -2.336000000000000e+01
+Node: 212
+  3.273053133468802e+03
+ -1.758035759701735e+03
+ -2.336000000000000e+01
+Node: 213
+  3.133371844827033e+03
+ -1.792765869165640e+03
+ -2.336000000000000e+01
+Node: 214
+  2.876152587989071e+03
+ -1.840298948297196e+03
+ -2.336000000000000e+01
+Node: 215
+  2.751062665110910e+03
+ -1.848359673719609e+03
+ -2.336000000000000e+01
+Node: 216
+  2.469667462974746e+03
+ -1.813369344845082e+03
+ -2.336000000000000e+01
+Node: 217
+  2.164660539392670e+03
+ -1.731994342743716e+03
+ -2.336000000000000e+01
+Node: 218
+  1.953111912960939e+03
+ -1.679629481864992e+03
+ -2.336000000000000e+01
+Node: 219
+  1.678746167535198e+03
+ -1.613226570505794e+03
+ -2.336000000000000e+01
+Node: 220
+  1.484999251024797e+03
+ -1.542516638793823e+03
+ -2.336000000000000e+01
+Node: 221
+  1.354287542553609e+03
+ -1.441754388578064e+03
+ -2.336000000000000e+01
+Node: 222
+  1.257283675007611e+03
+ -1.324181830210397e+03
+ -2.336000000000000e+01
+Node: 223
+  1.217592278055324e+03
+ -1.236152819606074e+03
+ -2.336000000000000e+01
+Node: 224
+  1.096854874270565e+03
+ -1.240622475892204e+03
+ -2.336000000000000e+01
+Node: 225
+  9.984243810626809e+02
+ -1.263273612880283e+03
+ -2.336000000000000e+01
+Node: 226
+  9.867280413201780e+02
+ -1.275985553590810e+03
+ -2.628000000000000e+01
+Node: 227
+  9.368931616839789e+02
+ -1.419535319775383e+03
+ -2.628000000000000e+01
+Node: 228
+  8.781796993584597e+02
+ -1.530157649536376e+03
+ -2.628000000000000e+01
+Node: 229
+  8.122840987603755e+02
+ -1.632074941110562e+03
+ -2.628000000000000e+01
+Node: 230
+  7.594560098137158e+02
+ -1.723219979473842e+03
+ -2.628000000000000e+01
+Node: 231
+  6.835486517639046e+02
+ -1.804136125538134e+03
+ -2.628000000000000e+01
+Node: 232
+  5.940384671260837e+02
+ -1.859698606999127e+03
+ -2.628000000000000e+01
+Node: 233
+  5.050735517960630e+02
+ -1.951387960472266e+03
+ -2.628000000000000e+01
+Node: 234
+  5.150426731009833e+02
+ -2.056569140920138e+03
+ -2.628000000000000e+01
+Node: 235
+  5.627042024790975e+02
+ -2.061137840662861e+03
+ -2.628000000000000e+01
+Node: 236
+  7.044019800909496e+02
+ -2.046662564504454e+03
+ -2.628000000000000e+01
+Node: 237
+  7.825311431228856e+02
+ -2.026093780293200e+03
+ -2.628000000000000e+01
+Node: 238
+  9.017048753106012e+02
+ -2.037517438045891e+03
+ -2.628000000000000e+01
+Node: 239
+  1.019182163081562e+03
+ -2.024718697561809e+03
+ -2.628000000000000e+01
+Node: 240
+  1.170510973166581e+03
+ -2.035216361028140e+03
+ -2.628000000000000e+01
+Node: 241
+  1.286083681846799e+03
+ -2.042286545489487e+03
+ -2.628000000000000e+01
+Node: 242
+  1.456129287570351e+03
+ -2.066603216193148e+03
+ -2.628000000000000e+01
+Node: 243
+  1.539546918353265e+03
+ -2.074599394940855e+03
+ -2.628000000000000e+01
+Node: 244
+  1.634879931480709e+03
+ -2.083737748624244e+03
+ -2.628000000000000e+01
+Node: 245
+  1.730212944608152e+03
+ -2.092876102307632e+03
+ -2.628000000000000e+01
+Node: 246
+  1.820648169334392e+03
+ -2.069478653115157e+03
+ -2.628000000000000e+01
+Node: 247
+  1.953630954388223e+03
+ -2.062184561031374e+03
+ -2.628000000000000e+01
+Node: 248
+  2.083795028832048e+03
+ -2.042585361451228e+03
+ -2.628000000000000e+01
+Node: 249
+  2.171781359357687e+03
+ -2.002920010820821e+03
+ -2.628000000000000e+01
+Node: 250
+  2.248224032344083e+03
+ -1.958129782570735e+03
+ -2.628000000000000e+01
+Node: 251
+  2.305742729215899e+03
+ -1.943601915894306e+03
+ -2.628000000000000e+01
+Node: 252
+  2.406189711393867e+03
+ -1.941205612211726e+03
+ -2.628000000000000e+01
+Node: 253
+  2.535581427311415e+03
+ -1.929559001034540e+03
+ -2.628000000000000e+01
+Node: 254
+  2.622970852209172e+03
+ -1.937935904760807e+03
+ -2.628000000000000e+01
+Node: 255
+  2.746497103490291e+03
+ -1.945768493377216e+03
+ -2.628000000000000e+01
+Node: 256
+  2.841830116617734e+03
+ -1.954906847060604e+03
+ -2.628000000000000e+01
+Node: 257
+  2.921821222593607e+03
+ -1.998649172841898e+03
+ -2.628000000000000e+01
+Node: 258
+  2.973618136217862e+03
+ -2.043707218061385e+03
+ -2.628000000000000e+01
+Node: 259
+  3.076133287617871e+03
+ -2.061550609931580e+03
+ -2.628000000000000e+01
+Node: 260
+  3.179419843346215e+03
+ -2.071451367770030e+03
+ -2.628000000000000e+01
+Node: 261
+  3.335091218153422e+03
+ -2.078357007902137e+03
+ -2.628000000000000e+01
+Node: 262
+  3.460141323546723e+03
+ -2.070292465687960e+03
+ -2.628000000000000e+01
+Node: 263
+  3.576475482184061e+03
+ -2.069419061919621e+03
+ -2.628000000000000e+01
+Node: 264
+  3.664842537688261e+03
+ -2.025781917174371e+03
+ -2.628000000000000e+01
+Node: 265
+  3.701402725196988e+03
+ -1.937085773011693e+03
+ -2.628000000000000e+01
+Node: 266
+  3.635993030613508e+03
+ -1.866673108990966e+03
+ -2.628000000000000e+01
+Node: 267
+  3.535598638953563e+03
+ -1.784890331933510e+03
+ -2.628000000000000e+01
+Node: 268
+  3.326596542038703e+03
+ -1.748822823214561e+03
+ -2.628000000000000e+01
+Node: 269
+  3.246008530434950e+03
+ -1.753122751789942e+03
+ -2.628000000000000e+01
+Node: 270
+  3.078575409043298e+03
+ -1.785182603022417e+03
+ -2.628000000000000e+01
+Node: 271
+  2.954081481526953e+03
+ -1.829365017075466e+03
+ -2.628000000000000e+01
+Node: 272
+  2.757703626395721e+03
+ -1.870675175802547e+03
+ -2.628000000000000e+01
+Node: 273
+  2.642511642694063e+03
+ -1.859633197226357e+03
+ -2.628000000000000e+01
+Node: 274
+  2.452052796915223e+03
+ -1.797275121048593e+03
+ -2.628000000000000e+01
+Node: 275
+  2.150382761722842e+03
+ -1.724266699842355e+03
+ -2.628000000000000e+01
+Node: 276
+  1.970706123526122e+03
+ -1.674977089513956e+03
+ -2.628000000000000e+01
+Node: 277
+  1.719147466110398e+03
+ -1.622795315117158e+03
+ -2.628000000000000e+01
+Node: 278
+  1.607001282237223e+03
+ -1.579978983622226e+03
+ -2.628000000000000e+01
+Node: 279
+  1.408063533292112e+03
+ -1.480733539673135e+03
+ -2.628000000000000e+01
+Node: 280
+  1.329977006406983e+03
+ -1.417122288946413e+03
+ -2.628000000000000e+01
+Node: 281
+  1.268755286587665e+03
+ -1.303019889662414e+03
+ -2.628000000000000e+01
+Node: 282
+  1.234748220117641e+03
+ -1.239635728154169e+03
+ -2.628000000000000e+01
+Node: 283
+  1.129177314517936e+03
+ -1.253565735004776e+03
+ -2.628000000000000e+01
+Node: 284
+  1.015672775059759e+03
+ -1.266735246096203e+03
+ -2.628000000000000e+01
+Node: 285
+  9.865103461048725e+02
+ -1.282343793032136e+03
+ -2.920000000000000e+01
+Node: 286
+  9.249265368492673e+02
+ -1.464830141665586e+03
+ -2.920000000000000e+01
+Node: 287
+  8.219373422017525e+02
+ -1.619297750845816e+03
+ -2.920000000000000e+01
+Node: 288
+  7.636155134239501e+02
+ -1.725939286318692e+03
+ -2.920000000000000e+01
+Node: 289
+  7.058806359028133e+02
+ -1.784537613236953e+03
+ -2.920000000000000e+01
+Node: 290
+  6.239442230852741e+02
+ -1.844824338596635e+03
+ -2.920000000000000e+01
+Node: 291
+  5.234555589584415e+02
+ -1.931390722845977e+03
+ -2.920000000000000e+01
+Node: 292
+  4.803110930029704e+02
+ -1.963329620093960e+03
+ -2.920000000000000e+01
+Node: 293
+  5.271595361038834e+02
+ -2.060011034435189e+03
+ -2.920000000000000e+01
+Node: 294
+  6.561605726716559e+02
+ -2.052335263174904e+03
+ -2.920000000000000e+01
+Node: 295
+  8.022009150056958e+02
+ -2.034267963682274e+03
+ -2.920000000000000e+01
+Node: 296
+  8.502431693623702e+02
+ -2.034864869310155e+03
+ -2.920000000000000e+01
+Node: 297
+  1.030116079465979e+03
+ -2.040082111000839e+03
+ -2.920000000000000e+01
+Node: 298
+  1.193721088131657e+03
+ -2.047748246892126e+03
+ -2.920000000000000e+01
+Node: 299
+  1.298891360010372e+03
+ -2.037788125760479e+03
+ -2.920000000000000e+01
+Node: 300
+  1.430341290778746e+03
+ -2.046380255938126e+03
+ -2.920000000000000e+01
+Node: 301
+  1.563097940812041e+03
+ -2.083155669898233e+03
+ -2.920000000000000e+01
+Node: 302
+  1.676211800920442e+03
+ -2.073956998723707e+03
+ -2.920000000000000e+01
+Node: 303
+  1.823929633126748e+03
+ -2.080100234700752e+03
+ -2.920000000000000e+01
+Node: 304
+  1.898087002043841e+03
+ -2.059150725510938e+03
+ -2.920000000000000e+01
+Node: 305
+  2.040526320870384e+03
+ -2.036729952726963e+03
+ -2.920000000000000e+01
+Node: 306
+  2.145151323441299e+03
+ -1.990642959583170e+03
+ -2.920000000000000e+01
+Node: 307
+  2.272464915765591e+03
+ -1.958755698655268e+03
+ -2.920000000000000e+01
+Node: 308
+  2.419637478664096e+03
+ -1.928772062620168e+03
+ -2.920000000000000e+01
+Node: 309
+  2.634875810822730e+03
+ -1.941387623232738e+03
+ -2.920000000000000e+01
+Node: 310
+  2.772581885577310e+03
+ -1.926529713699888e+03
+ -2.920000000000000e+01
+Node: 311
+  2.876774526849583e+03
+ -1.968583641039759e+03
+ -2.920000000000000e+01
+Node: 312
+  2.941413771302669e+03
+ -2.046928984721015e+03
+ -2.920000000000000e+01
+Node: 313
+  3.063049297635070e+03
+ -2.060547561513034e+03
+ -2.920000000000000e+01
+Node: 314
+  3.279777721021432e+03
+ -2.071347019668955e+03
+ -2.920000000000000e+01
+Node: 315
+  3.323467456284703e+03
+ -2.075534994433118e+03
+ -2.920000000000000e+01
+Node: 316
+  3.404045513517241e+03
+ -2.071234111659795e+03
+ -2.920000000000000e+01
+Node: 317
+  3.473088913383811e+03
+ -2.061819259835949e+03
+ -2.920000000000000e+01
+Node: 318
+  3.579401360198207e+03
+ -2.039943756359774e+03
+ -2.920000000000000e+01
+Node: 319
+  3.648444760064777e+03
+ -2.030528904535928e+03
+ -2.920000000000000e+01
+Node: 320
+  3.685929987661923e+03
+ -1.973997792641768e+03
+ -2.920000000000000e+01
+Node: 321
+  3.650070932619179e+03
+ -1.846303475338916e+03
+ -2.920000000000000e+01
+Node: 322
+  3.544190847103423e+03
+ -1.780038058331428e+03
+ -2.920000000000000e+01
+Node: 323
+  3.406320228019605e+03
+ -1.754797301737289e+03
+ -2.920000000000000e+01
+Node: 324
+  3.189558995946729e+03
+ -1.758068917584090e+03
+ -2.920000000000000e+01
+Node: 325
+  3.101037350484506e+03
+ -1.761608350400292e+03
+ -2.920000000000000e+01
+Node: 326
+  2.943636849484953e+03
+ -1.814661301167329e+03
+ -2.920000000000000e+01
+Node: 327
+  2.815561807203540e+03
+ -1.854492150324917e+03
+ -2.920000000000000e+01
+Node: 328
+  2.730631230877600e+03
+ -1.862384102234522e+03
+ -2.920000000000000e+01
+Node: 329
+  2.603533819202628e+03
+ -1.850200902920592e+03
+ -2.920000000000000e+01
+Node: 330
+  2.452821823487921e+03
+ -1.791662893493469e+03
+ -2.920000000000000e+01
+Node: 331
+  2.146829132315782e+03
+ -1.722248404017338e+03
+ -2.920000000000000e+01
+Node: 332
+  2.040352141172145e+03
+ -1.704025241366524e+03
+ -2.920000000000000e+01
+Node: 333
+  1.931426255827908e+03
+ -1.669534177277779e+03
+ -2.920000000000000e+01
+Node: 334
+  1.756122045467022e+03
+ -1.616655406208980e+03
+ -2.920000000000000e+01
+Node: 335
+  1.603887149838073e+03
+ -1.574004573241228e+03
+ -2.920000000000000e+01
+Node: 336
+  1.504047027659202e+03
+ -1.528359576765075e+03
+ -2.920000000000000e+01
+Node: 337
+  1.422923701118864e+03
+ -1.496533587526252e+03
+ -2.920000000000000e+01
+Node: 338
+  1.355238656837296e+03
+ -1.449962596763738e+03
+ -2.920000000000000e+01
+Node: 339
+  1.274547691595599e+03
+ -1.329995687041252e+03
+ -2.920000000000000e+01
+Node: 340
+  1.223727454379843e+03
+ -1.232933547721462e+03
+ -2.920000000000000e+01
+Node: 341
+  1.144291572082986e+03
+ -1.225319048150256e+03
+ -2.920000000000000e+01
+Node: 342
+  1.068992028230212e+03
+ -1.258183939684599e+03
+ -2.920000000000000e+01
+Node: 343
+  9.691234726623403e+02
+ -1.276658801220939e+03
+ -3.212000000000000e+01
+Node: 344
+  9.537232498050997e+02
+ -1.395501580286171e+03
+ -3.212000000000000e+01
+Node: 345
+  9.067478085298303e+02
+ -1.467196327771560e+03
+ -3.212000000000000e+01
+Node: 346
+  8.688590846178687e+02
+ -1.527727188498326e+03
+ -3.212000000000000e+01
+Node: 347
+  7.961383451915844e+02
+ -1.617005556859842e+03
+ -3.212000000000000e+01
+Node: 348
+  7.873768996949914e+02
+ -1.708406593357303e+03
+ -3.212000000000000e+01
+Node: 349
+  7.672898857043591e+02
+ -1.750592383250822e+03
+ -3.212000000000000e+01
+Node: 350
+  7.125789908733917e+02
+ -1.777434357596887e+03
+ -3.212000000000000e+01
+Node: 351
+  6.472584787648753e+02
+ -1.831327395160947e+03
+ -3.212000000000000e+01
+Node: 352
+  5.668022857828933e+02
+ -1.875752990383139e+03
+ -3.212000000000000e+01
+Node: 353
+  5.058342927677800e+02
+ -1.926054958810916e+03
+ -3.212000000000000e+01
+Node: 354
+  4.749750255662414e+02
+ -1.955173237053011e+03
+ -3.212000000000000e+01
+Node: 355
+  5.031227649792862e+02
+ -2.038077370037653e+03
+ -3.212000000000000e+01
+Node: 356
+  5.568422580408323e+02
+ -2.063288307450025e+03
+ -3.212000000000000e+01
+Node: 357
+  6.751416761941458e+02
+ -2.042541749552689e+03
+ -3.212000000000000e+01
+Node: 358
+  7.958790799789045e+02
+ -2.038072093266559e+03
+ -3.212000000000000e+01
+Node: 359
+  9.273986913457848e+02
+ -2.046670902829794e+03
+ -3.212000000000000e+01
+Node: 360
+  1.068766470033093e+03
+ -2.036162237404722e+03
+ -3.212000000000000e+01
+Node: 361
+  1.272199872128507e+03
+ -2.047636164887750e+03
+ -3.212000000000000e+01
+Node: 362
+  1.507035902337377e+03
+ -2.066138594883259e+03
+ -3.212000000000000e+01
+Node: 363
+  1.566642677173665e+03
+ -2.071852332155488e+03
+ -3.212000000000000e+01
+Node: 364
+  1.669969050386870e+03
+ -2.081756906785703e+03
+ -3.212000000000000e+01
+Node: 365
+  1.786353935078225e+03
+ -2.080878319635855e+03
+ -3.212000000000000e+01
+Node: 366
+  1.976936960369476e+03
+ -2.059044085716743e+03
+ -3.212000000000000e+01
+Node: 367
+  2.155051288033066e+03
+ -1.999919941909432e+03
+ -3.212000000000000e+01
+Node: 368
+  2.250642207690572e+03
+ -1.964971743400324e+03
+ -3.212000000000000e+01
+Node: 369
+  2.324831348117193e+03
+ -1.944005188061903e+03
+ -3.212000000000000e+01
+Node: 370
+  2.429299896266079e+03
+ -1.941994380347589e+03
+ -3.212000000000000e+01
+Node: 371
+  2.587327209939036e+03
+ -1.925056026433798e+03
+ -3.212000000000000e+01
+Node: 372
+  2.714494302212513e+03
+ -1.937245905133316e+03
+ -3.212000000000000e+01
+Node: 373
+  2.818572171011623e+03
+ -1.939205937335904e+03
+ -3.212000000000000e+01
+Node: 374
+  2.907089089416018e+03
+ -2.019870264991874e+03
+ -3.212000000000000e+01
+Node: 375
+  3.051458123389120e+03
+ -2.061787190328465e+03
+ -3.212000000000000e+01
+Node: 376
+  3.111445623203969e+03
+ -2.063529133485851e+03
+ -3.212000000000000e+01
+Node: 377
+  3.246556303707132e+03
+ -2.076480462142490e+03
+ -3.212000000000000e+01
+Node: 378
+  3.433711849993398e+03
+ -2.090402329628178e+03
+ -3.212000000000000e+01
+Node: 379
+  3.567897490408141e+03
+ -2.071188626016299e+03
+ -3.212000000000000e+01
+Node: 380
+  3.661422149239489e+03
+ -2.015980823211986e+03
+ -3.212000000000000e+01
+Node: 381
+  3.687766261414268e+03
+ -1.950335039236754e+03
+ -3.212000000000000e+01
+Node: 382
+  3.646007649437880e+03
+ -1.842056378708442e+03
+ -3.212000000000000e+01
+Node: 383
+  3.573169772818870e+03
+ -1.807006274148916e+03
+ -3.212000000000000e+01
+Node: 384
+  3.397397156534370e+03
+ -1.758070800671058e+03
+ -3.212000000000000e+01
+Node: 385
+  3.254332933430306e+03
+ -1.744357067859358e+03
+ -3.212000000000000e+01
+Node: 386
+  3.066578573120277e+03
+ -1.778497363472774e+03
+ -3.212000000000000e+01
+Node: 387
+  2.984055165114194e+03
+ -1.802673308770976e+03
+ -3.212000000000000e+01
+Node: 388
+  2.782481797566834e+03
+ -1.855530400022926e+03
+ -3.212000000000000e+01
+Node: 389
+  2.717760099482081e+03
+ -1.861361274487881e+03
+ -3.212000000000000e+01
+Node: 390
+  2.575076601356578e+03
+ -1.843675747561338e+03
+ -3.212000000000000e+01
+Node: 391
+  2.404037229144041e+03
+ -1.787177410832355e+03
+ -3.212000000000000e+01
+Node: 392
+  2.176601426252940e+03
+ -1.733289650039389e+03
+ -3.212000000000000e+01
+Node: 393
+  2.047747843933923e+03
+ -1.696878327301038e+03
+ -3.212000000000000e+01
+Node: 394
+  1.886719274975173e+03
+ -1.661391090453165e+03
+ -3.212000000000000e+01
+Node: 395
+  1.767886450281157e+03
+ -1.645991821793866e+03
+ -3.212000000000000e+01
+Node: 396
+  1.655692402947788e+03
+ -1.603150810566797e+03
+ -3.212000000000000e+01
+Node: 397
+  1.498853717149084e+03
+ -1.523953929713223e+03
+ -3.212000000000000e+01
+Node: 398
+  1.365104254824746e+03
+ -1.454986895356578e+03
+ -3.212000000000000e+01
+Node: 399
+  1.300048284700004e+03
+ -1.380569711513539e+03
+ -3.212000000000000e+01
+Node: 400
+  1.220837126902061e+03
+ -1.244641173743469e+03
+ -3.212000000000000e+01
+Node: 401
+  1.137389633005501e+03
+ -1.236642132401938e+03
+ -3.212000000000000e+01
+Node: 402
+  1.047674132355638e+03
+ -1.252112085315392e+03
+ -3.212000000000000e+01
+Node: 403
+  9.736726203076615e+02
+ -1.277094869680092e+03
+ -3.504000000000000e+01
+Node: 404
+  9.630075499182669e+02
+ -1.388354876751768e+03
+ -3.504000000000000e+01
+Node: 405
+  9.247490095969015e+02
+ -1.452848531420103e+03
+ -3.504000000000000e+01
+Node: 406
+  8.813655916558560e+02
+ -1.528885843627680e+03
+ -3.504000000000000e+01
+Node: 407
+  8.084386259514663e+02
+ -1.662235626428969e+03
+ -3.504000000000000e+01
+Node: 408
+  7.548362700826472e+02
+ -1.761353161937639e+03
+ -3.504000000000000e+01
+Node: 409
+  6.866870929929102e+02
+ -1.802940137807394e+03
+ -3.504000000000000e+01
+Node: 410
+  5.706492973065821e+02
+ -1.884037874349532e+03
+ -3.504000000000000e+01
+Node: 411
+  5.028907995666206e+02
+ -1.921654010302387e+03
+ -3.504000000000000e+01
+Node: 412
+  5.038158396550398e+02
+ -1.953819042570905e+03
+ -3.504000000000000e+01
+Node: 413
+  5.111715224301186e+02
+ -2.002633655453856e+03
+ -3.504000000000000e+01
+Node: 414
+  5.614644906846220e+02
+ -2.063590739899813e+03
+ -3.504000000000000e+01
+Node: 415
+  6.765227473686266e+02
+ -2.034526960571623e+03
+ -3.504000000000000e+01
+Node: 416
+  7.459677351541279e+02
+ -2.021132268657601e+03
+ -3.504000000000000e+01
+Node: 417
+  9.009274318602897e+02
+ -2.035986268009100e+03
+ -3.504000000000000e+01
+Node: 418
+  1.034331713575482e+03
+ -2.024714244231024e+03
+ -3.504000000000000e+01
+Node: 419
+  1.154667529441309e+03
+ -2.024224428035069e+03
+ -3.504000000000000e+01
+Node: 420
+  1.267059757077451e+03
+ -2.022973161881994e+03
+ -3.504000000000000e+01
+Node: 421
+  1.418047659668769e+03
+ -2.037446436254933e+03
+ -3.504000000000000e+01
+Node: 422
+  1.515849475739245e+03
+ -2.062854599772135e+03
+ -3.504000000000000e+01
+Node: 423
+  1.602888038772087e+03
+ -2.075206160207070e+03
+ -3.504000000000000e+01
+Node: 424
+  1.761809575221877e+03
+ -2.090439930339188e+03
+ -3.504000000000000e+01
+Node: 425
+  1.860219205489390e+03
+ -2.067796839326442e+03
+ -3.504000000000000e+01
+Node: 426
+  1.934407391718070e+03
+ -2.046840238359236e+03
+ -3.504000000000000e+01
+Node: 427
+  2.049465648402074e+03
+ -2.017776459031046e+03
+ -3.504000000000000e+01
+Node: 428
+  2.184383829858234e+03
+ -1.990606350224442e+03
+ -3.504000000000000e+01
+Node: 429
+  2.264448389292500e+03
+ -1.950161549290367e+03
+ -3.504000000000000e+01
+Node: 430
+  2.349789553710646e+03
+ -1.938300665859743e+03
+ -3.504000000000000e+01
+Node: 431
+  2.466915979616692e+03
+ -1.929476582084327e+03
+ -3.504000000000000e+01
+Node: 432
+  2.624160980392157e+03
+ -1.920489862375554e+03
+ -3.504000000000000e+01
+Node: 433
+  2.756041407995167e+03
+ -1.925114969428064e+03
+ -3.504000000000000e+01
+Node: 434
+  2.895267564002041e+03
+ -1.978553735165585e+03
+ -3.504000000000000e+01
+Node: 435
+  2.950674501307068e+03
+ -2.027976162245573e+03
+ -3.504000000000000e+01
+Node: 436
+  3.027854942648268e+03
+ -2.059434243470875e+03
+ -3.504000000000000e+01
+Node: 437
+  3.110911757195052e+03
+ -2.071404124729308e+03
+ -3.504000000000000e+01
+Node: 438
+  3.259832444762271e+03
+ -2.065627749178257e+03
+ -3.504000000000000e+01
+Node: 439
+  3.435793286978328e+03
+ -2.070469991078029e+03
+ -3.504000000000000e+01
+Node: 440
+  3.576760431944647e+03
+ -2.063931211371916e+03
+ -3.504000000000000e+01
+Node: 441
+  3.677074641302901e+03
+ -2.021419195413741e+03
+ -3.504000000000000e+01
+Node: 442
+  3.666727657613244e+03
+ -1.920179945967067e+03
+ -3.504000000000000e+01
+Node: 443
+  3.633854720103569e+03
+ -1.844859539173921e+03
+ -3.504000000000000e+01
+Node: 444
+  3.542681727022526e+03
+ -1.792008678891007e+03
+ -3.504000000000000e+01
+Node: 445
+  3.350279438866023e+03
+ -1.749505756495691e+03
+ -3.504000000000000e+01
+Node: 446
+  3.156515932530696e+03
+ -1.763018539800382e+03
+ -3.504000000000000e+01
+Node: 447
+  3.033133362638445e+03
+ -1.795292663286295e+03
+ -3.504000000000000e+01
+Node: 448
+  2.868869813721714e+03
+ -1.835682965306465e+03
+ -3.504000000000000e+01
+Node: 449
+  2.711624812946249e+03
+ -1.844669685015238e+03
+ -3.504000000000000e+01
+Node: 450
+  2.604346554360632e+03
+ -1.834386293802345e+03
+ -3.504000000000000e+01
+Node: 451
+  2.337211764865590e+03
+ -1.776703145990875e+03
+ -3.504000000000000e+01
+Node: 452
+  1.984572220821104e+03
+ -1.690772261111824e+03
+ -3.504000000000000e+01
+Node: 453
+  1.668069503159978e+03
+ -1.604297061122915e+03
+ -3.504000000000000e+01
+Node: 454
+  1.589746886883098e+03
+ -1.584754362242141e+03
+ -3.504000000000000e+01
+Node: 455
+  1.501793238133051e+03
+ -1.540238723736630e+03
+ -3.504000000000000e+01
+Node: 456
+  1.362947807104738e+03
+ -1.482828163884267e+03
+ -3.504000000000000e+01
+Node: 457
+  1.318314077208558e+03
+ -1.446463294084488e+03
+ -3.504000000000000e+01
+Node: 458
+  1.274114617006902e+03
+ -1.321937595058615e+03
+ -3.504000000000000e+01
+Node: 459
+  1.228935617802922e+03
+ -1.249445853246690e+03
+ -3.504000000000000e+01
+Node: 460
+  1.166510132356628e+03
+ -1.231427008478099e+03
+ -3.504000000000000e+01
+Node: 461
+  1.007741277468981e+03
+ -1.256310859017459e+03
+ -3.504000000000000e+01
+Node: 462
+  1.108517428842116e+03
+ -1.228891788748409e+03
+ -3.796000000000000e+01
+Node: 463
+  1.018864517013368e+03
+ -1.244337603735866e+03
+ -3.796000000000000e+01
+Node: 464
+  9.925441303727847e+02
+ -1.309945478622119e+03
+ -3.796000000000000e+01
+Node: 465
+  9.578894761527407e+02
+ -1.378762743468153e+03
+ -3.796000000000000e+01
+Node: 466
+  9.007216850777170e+02
+ -1.473469942052011e+03
+ -3.796000000000000e+01
+Node: 467
+  8.821197058442255e+02
+ -1.583898818568060e+03
+ -3.796000000000000e+01
+Node: 468
+  8.147239766681540e+02
+ -1.701675331883856e+03
+ -3.796000000000000e+01
+Node: 469
+  7.369357650617953e+02
+ -1.802422493804598e+03
+ -3.796000000000000e+01
+Node: 470
+  5.714082208907053e+02
+ -1.898757454336524e+03
+ -3.796000000000000e+01
+Node: 471
+  5.033007696817114e+02
+ -1.940328338255615e+03
+ -3.796000000000000e+01
+Node: 472
+  4.968303534420688e+02
+ -2.007828929465513e+03
+ -3.796000000000000e+01
+Node: 473
+  5.518295652487141e+02
+ -2.061190424952876e+03
+ -3.796000000000000e+01
+Node: 474
+  6.978390902711673e+02
+ -2.043130217237636e+03
+ -3.796000000000000e+01
+Node: 475
+  8.383449210912627e+02
+ -2.040565552434051e+03
+ -3.796000000000000e+01
+Node: 476
+  1.051093587366493e+03
+ -2.036919349188140e+03
+ -3.796000000000000e+01
+Node: 477
+  1.264223932818226e+03
+ -2.029291397456171e+03
+ -3.796000000000000e+01
+Node: 478
+  1.419474765162012e+03
+ -2.040165014911356e+03
+ -3.796000000000000e+01
+Node: 479
+  1.653770800452879e+03
+ -2.062623971854648e+03
+ -3.796000000000000e+01
+Node: 480
+  1.790313837331405e+03
+ -2.059689490641660e+03
+ -3.796000000000000e+01
+Node: 481
+  1.973953225537816e+03
+ -2.025194928763366e+03
+ -3.796000000000000e+01
+Node: 482
+  2.118656031295348e+03
+ -1.978951437265666e+03
+ -3.796000000000000e+01
+Node: 483
+  2.305505763659480e+03
+ -1.952781188595619e+03
+ -3.796000000000000e+01
+Node: 484
+  2.405006842808657e+03
+ -1.918227898619853e+03
+ -3.796000000000000e+01
+Node: 485
+  2.688085719472947e+03
+ -1.933348218936673e+03
+ -3.796000000000000e+01
+Node: 486
+  2.865645370789490e+03
+ -1.962383408351376e+03
+ -3.796000000000000e+01
+Node: 487
+  3.041784843653273e+03
+ -2.062406996065818e+03
+ -3.796000000000000e+01
+Node: 488
+  3.257425906173366e+03
+ -2.056044390058402e+03
+ -3.796000000000000e+01
+Node: 489
+  3.387323073913853e+03
+ -2.080520834101596e+03
+ -3.796000000000000e+01
+Node: 490
+  3.573040585713520e+03
+ -2.066266921974019e+03
+ -3.796000000000000e+01
+Node: 491
+  3.675742054649204e+03
+ -2.040036991008558e+03
+ -3.796000000000000e+01
+Node: 492
+  3.698696552976098e+03
+ -1.926017045356227e+03
+ -3.796000000000000e+01
+Node: 493
+  3.642389667706590e+03
+ -1.844482220457619e+03
+ -3.796000000000000e+01
+Node: 494
+  3.488115511771305e+03
+ -1.781604508902132e+03
+ -3.796000000000000e+01
+Node: 495
+  3.331557960162599e+03
+ -1.742547607664487e+03
+ -3.796000000000000e+01
+Node: 496
+  3.075284102953337e+03
+ -1.782104502273224e+03
+ -3.796000000000000e+01
+Node: 497
+  2.928142357366417e+03
+ -1.812081046530933e+03
+ -3.796000000000000e+01
+Node: 498
+  2.792154544166906e+03
+ -1.851143353954009e+03
+ -3.796000000000000e+01
+Node: 499
+  2.669048835349208e+03
+ -1.839342788014523e+03
+ -3.796000000000000e+01
+Node: 500
+  2.425501538365793e+03
+ -1.787949051702864e+03
+ -3.796000000000000e+01
+Node: 501
+  2.255896383848092e+03
+ -1.759666312072008e+03
+ -3.796000000000000e+01
+Node: 502
+  2.052818523599011e+03
+ -1.704135283118326e+03
+ -3.796000000000000e+01
+Node: 503
+  1.715501885085196e+03
+ -1.627709879084458e+03
+ -3.796000000000000e+01
+Node: 504
+  1.563295898371951e+03
+ -1.585071863081745e+03
+ -3.796000000000000e+01
+Node: 505
+  1.458196217357805e+03
+ -1.510874720611669e+03
+ -3.796000000000000e+01
+Node: 506
+  1.369519027739615e+03
+ -1.474326395870039e+03
+ -3.796000000000000e+01
+Node: 507
+  1.281829423099082e+03
+ -1.385764976854832e+03
+ -3.796000000000000e+01
+Node: 508
+  1.240864444981146e+03
+ -1.269626179858320e+03
+ -3.796000000000000e+01
+Node: 509
+  1.204962753791594e+03
+ -1.226111897493445e+03
+ -3.796000000000000e+01
+Node: 510
+  1.183483555113131e+03
+ -1.241110794923960e+03
+ -4.088000000000000e+01
+Node: 511
+  1.001357112449747e+03
+ -1.259717226144941e+03
+ -4.088000000000000e+01
+Node: 512
+  9.521319554064676e+02
+ -1.355195829057135e+03
+ -4.088000000000000e+01
+Node: 513
+  8.896349688295410e+02
+ -1.505498190877579e+03
+ -4.088000000000000e+01
+Node: 514
+  7.298814794218166e+02
+ -1.750673249809061e+03
+ -4.088000000000000e+01
+Node: 515
+  6.458371238292533e+02
+ -1.874870451440301e+03
+ -4.088000000000000e+01
+Node: 516
+  6.614493915418324e+02
+ -2.004602120653607e+03
+ -4.088000000000000e+01
+Node: 517
+  8.144158740142564e+02
+ -2.039306502797849e+03
+ -4.088000000000000e+01
+Node: 518
+  9.668470415500954e+02
+ -2.037884967127887e+03
+ -4.088000000000000e+01
+Node: 519
+  1.240685565090995e+03
+ -2.024061507903067e+03
+ -4.088000000000000e+01
+Node: 520
+  1.433740759319193e+03
+ -2.058600391520128e+03
+ -4.088000000000000e+01
+Node: 521
+  1.663139006208856e+03
+ -2.048523545587557e+03
+ -4.088000000000000e+01
+Node: 522
+  1.802121937114711e+03
+ -2.061846057243344e+03
+ -4.088000000000000e+01
+Node: 523
+  1.886661834090876e+03
+ -2.057924945250640e+03
+ -4.088000000000000e+01
+Node: 524
+  2.039298273706879e+03
+ -2.012441949512120e+03
+ -4.088000000000000e+01
+Node: 525
+  2.187961965010098e+03
+ -1.966588183166254e+03
+ -4.088000000000000e+01
+Node: 526
+  2.363667719358038e+03
+ -1.931333125528782e+03
+ -4.088000000000000e+01
+Node: 527
+  2.504183504549349e+03
+ -1.928769414923138e+03
+ -4.088000000000000e+01
+Node: 528
+  2.691579460419222e+03
+ -1.938716083894021e+03
+ -4.088000000000000e+01
+Node: 529
+  2.823770932402287e+03
+ -1.939362717446100e+03
+ -4.088000000000000e+01
+Node: 530
+  2.984085051674456e+03
+ -2.022860849532922e+03
+ -4.088000000000000e+01
+Node: 531
+  3.125516876780912e+03
+ -2.052451262626640e+03
+ -4.088000000000000e+01
+Node: 532
+  3.295512710648389e+03
+ -2.076763162340595e+03
+ -4.088000000000000e+01
+Node: 533
+  3.438467435669086e+03
+ -2.090466398974942e+03
+ -4.088000000000000e+01
+Node: 534
+  3.569732913365790e+03
+ -2.058957954629718e+03
+ -4.088000000000000e+01
+Node: 535
+  3.682661366204580e+03
+ -2.009668663303535e+03
+ -4.088000000000000e+01
+Node: 536
+  3.701643116218690e+03
+ -1.895277947043859e+03
+ -4.088000000000000e+01
+Node: 537
+  3.631898902888355e+03
+ -1.828478169297727e+03
+ -4.088000000000000e+01
+Node: 538
+  3.417678018821021e+03
+ -1.763852377005405e+03
+ -4.088000000000000e+01
+Node: 539
+  3.193393740981881e+03
+ -1.762394565572007e+03
+ -4.088000000000000e+01
+Node: 540
+  3.062139171854334e+03
+ -1.793894009743958e+03
+ -4.088000000000000e+01
+Node: 541
+  2.889643761664116e+03
+ -1.837473380589676e+03
+ -4.088000000000000e+01
+Node: 542
+  2.760281908860214e+03
+ -1.849122854360687e+03
+ -4.088000000000000e+01
+Node: 543
+  2.624890047090642e+03
+ -1.840152861798303e+03
+ -4.088000000000000e+01
+Node: 544
+  2.350340755714762e+03
+ -1.777760737255203e+03
+ -4.088000000000000e+01
+Node: 545
+  2.072199441004657e+03
+ -1.711026047989915e+03
+ -4.088000000000000e+01
+Node: 546
+  1.899373987958019e+03
+ -1.674418040952871e+03
+ -4.088000000000000e+01
+Node: 547
+  1.684771424714185e+03
+ -1.613773997146607e+03
+ -4.088000000000000e+01
+Node: 548
+  1.447109501109629e+03
+ -1.542902969437236e+03
+ -4.088000000000000e+01
+Node: 549
+  1.350334133303729e+03
+ -1.465495482809438e+03
+ -4.088000000000000e+01
+Node: 550
+  1.222214865481845e+03
+ -1.296921184611924e+03
+ -4.088000000000000e+01
+Node: 551
+  9.631213434646357e+02
+ -1.324182926095513e+03
+ -4.380000000000000e+01
+Node: 552
+  8.829990540627173e+02
+ -1.532910070331703e+03
+ -4.380000000000000e+01
+Node: 553
+  8.983444590038367e+02
+ -1.790871371784446e+03
+ -4.380000000000000e+01
+Node: 554
+  1.034407315055407e+03
+ -1.960207119939080e+03
+ -4.380000000000000e+01
+Node: 555
+  1.243134459291597e+03
+ -2.040329409340999e+03
+ -4.380000000000000e+01
+Node: 556
+  1.562341162165974e+03
+ -2.054894505978804e+03
+ -4.380000000000000e+01
+Node: 557
+  1.733479170969132e+03
+ -2.067291023348230e+03
+ -4.380000000000000e+01
+Node: 558
+  1.890633628205719e+03
+ -2.058305670229201e+03
+ -4.380000000000000e+01
+Node: 559
+  2.138407719308339e+03
+ -1.981869453824471e+03
+ -4.380000000000000e+01
+Node: 560
+  2.311664579455677e+03
+ -1.930346494749067e+03
+ -4.380000000000000e+01
+Node: 561
+  2.512127092779034e+03
+ -1.929530864880259e+03
+ -4.380000000000000e+01
+Node: 562
+  2.716171675065400e+03
+ -1.933056845535697e+03
+ -4.380000000000000e+01
+Node: 563
+  2.896715535519129e+03
+ -2.014485854202537e+03
+ -4.380000000000000e+01
+Node: 564
+  3.013565100350623e+03
+ -2.049736459852520e+03
+ -4.380000000000000e+01
+Node: 565
+  3.156140054590700e+03
+ -2.067401536230495e+03
+ -4.380000000000000e+01
+Node: 566
+  3.321617870837592e+03
+ -2.055215793324959e+03
+ -4.380000000000000e+01
+Node: 567
+  3.493136604619310e+03
+ -2.063640516579542e+03
+ -4.380000000000000e+01
+Node: 568
+  3.619287159067550e+03
+ -2.043676683971501e+03
+ -4.380000000000000e+01
+Node: 569
+  3.659210372296141e+03
+ -2.003422473688546e+03
+ -4.380000000000000e+01
+Node: 570
+  3.706922583796395e+03
+ -1.923832001433665e+03
+ -4.380000000000000e+01
+Node: 571
+  3.657798790997394e+03
+ -1.850992260350648e+03
+ -4.380000000000000e+01
+Node: 572
+  3.522992926286547e+03
+ -1.793989013604864e+03
+ -4.380000000000000e+01
+Node: 573
+  3.377970032043808e+03
+ -1.760046081417743e+03
+ -4.380000000000000e+01
+Node: 574
+  3.241426040967341e+03
+ -1.762990517001947e+03
+ -4.380000000000000e+01
+Node: 575
+  3.058928827696612e+03
+ -1.785569696535712e+03
+ -4.380000000000000e+01
+Node: 576
+  2.889097538158375e+03
+ -1.801356462948746e+03
+ -4.380000000000000e+01
+Node: 577
+  2.748747251494246e+03
+ -1.844008885310163e+03
+ -4.380000000000000e+01
+Node: 578
+  2.550197363236964e+03
+ -1.824976453173913e+03
+ -4.380000000000000e+01
+Node: 579
+  2.369809046939200e+03
+ -1.783635202064906e+03
+ -4.380000000000000e+01
+Node: 580
+  2.203033511600662e+03
+ -1.767648569757139e+03
+ -4.380000000000000e+01
+Node: 581
+  1.967429802846932e+03
+ -1.717016283402601e+03
+ -4.380000000000000e+01
+Node: 582
+  1.811252976216786e+03
+ -1.673987588050113e+03
+ -4.380000000000000e+01
+Node: 583
+  1.558299827582799e+03
+ -1.553561360441042e+03
+ -4.380000000000000e+01
+Node: 584
+  1.424636137807632e+03
+ -1.484642731350729e+03
+ -4.380000000000000e+01
+Node: 585
+  1.325957145108930e+03
+ -1.427094215297145e+03
+ -4.380000000000000e+01
+Node: 586
+  1.224498261155265e+03
+ -1.273100374294082e+03
+ -4.380000000000000e+01
+Node: 587
+  1.197847831658261e+03
+ -1.258520871297573e+03
+ -4.380000000000000e+01
+Node: 588
+  1.098357661078242e+03
+ -1.293065161100064e+03
+ -4.380000000000000e+01
+Node: 589
+  9.924458479848356e+02
+ -1.310970778857279e+03
+ -4.380000000000000e+01
+Node: 590
+  9.655702376652373e+02
+ -1.340450827533445e+03
+ -4.380000000000000e+01
+Node: 591
+  1.914073713545001e+03
+ -2.064560860017464e+03
+ -4.672000000000000e+01
+Node: 592
+  2.167352453047920e+03
+ -1.972619146329865e+03
+ -4.672000000000000e+01
+Node: 593
+  2.432320439874832e+03
+ -1.925889113621837e+03
+ -4.672000000000000e+01
+Node: 594
+  2.781778595753711e+03
+ -1.959387186547496e+03
+ -4.672000000000000e+01
+Node: 595
+  2.997523333933226e+03
+ -2.008115848009232e+03
+ -4.672000000000000e+01
+Node: 596
+  3.227837620738036e+03
+ -2.030193125776022e+03
+ -4.672000000000000e+01
+Node: 597
+  3.481992626603118e+03
+ -2.054555707612116e+03
+ -4.672000000000000e+01
+Node: 598
+  3.608513951658701e+03
+ -2.030619126691291e+03
+ -4.672000000000000e+01
+Node: 599
+  3.659651733768057e+03
+ -1.915292461774039e+03
+ -4.672000000000000e+01
+Node: 600
+  3.616011726428983e+03
+ -1.826955269383486e+03
+ -4.672000000000000e+01
+Node: 601
+  3.508257879134072e+03
+ -1.780551685544036e+03
+ -4.672000000000000e+01
+Node: 602
+  3.271677493971843e+03
+ -1.781923493289800e+03
+ -4.672000000000000e+01
+Node: 603
+  2.997077520473822e+03
+ -1.803690540744306e+03
+ -4.672000000000000e+01
+Node: 604
+  2.784493398527831e+03
+ -1.847435410117205e+03
+ -4.672000000000000e+01
+Node: 605
+  2.568914158875497e+03
+ -1.838795460411243e+03
+ -4.672000000000000e+01
+Node: 606
+  2.376610460233205e+03
+ -1.796312034366555e+03
+ -4.672000000000000e+01
+Node: 607
+  2.075790510140940e+03
+ -1.715378567083318e+03
+ -4.672000000000000e+01
+Node: 608
+  1.879524971755020e+03
+ -1.672515370258011e+03
+ -4.672000000000000e+01
+Node: 609
+  1.763765945539127e+03
+ -1.709518508632319e+03
+ -4.672000000000000e+01
+Node: 610
+  1.732868813180488e+03
+ -1.822767049956315e+03
+ -4.672000000000000e+01
+Node: 611
+  1.776663410477586e+03
+ -1.951201954275916e+03
+ -4.672000000000000e+01
+Node: 612
+  1.869086259190082e+03
+ -2.032200510039997e+03
+ -4.672000000000000e+01
+Node: 613
+  1.981799485577493e+03
+ -2.026971724584431e+03
+ -4.964000000000000e+01
+Node: 614
+  2.329239200158529e+03
+ -1.956080884330925e+03
+ -4.964000000000000e+01
+Node: 615
+  2.658672886936014e+03
+ -1.947586620608009e+03
+ -4.964000000000000e+01
+Node: 616
+  2.962157911878202e+03
+ -2.000717529087346e+03
+ -4.964000000000000e+01
+Node: 617
+  3.229144340002957e+03
+ -2.058376409558482e+03
+ -4.964000000000000e+01
+Node: 618
+  3.435637816489924e+03
+ -2.078170291651853e+03
+ -4.964000000000000e+01
+Node: 619
+  3.617218989845508e+03
+ -2.023436988418726e+03
+ -4.964000000000000e+01
+Node: 620
+  3.729005267748616e+03
+ -1.986063079437073e+03
+ -4.964000000000000e+01
+Node: 621
+  3.643052835275762e+03
+ -1.837563932463094e+03
+ -4.964000000000000e+01
+Node: 622
+  3.499933565925826e+03
+ -1.783762029701758e+03
+ -4.964000000000000e+01
+Node: 623
+  3.205689848304970e+03
+ -1.759564946392845e+03
+ -4.964000000000000e+01
+Node: 624
+  2.974554429247627e+03
+ -1.829579520284189e+03
+ -4.964000000000000e+01
+Node: 625
+  2.813047452917637e+03
+ -1.842155942539501e+03
+ -4.964000000000000e+01
+Node: 626
+  2.557925725015271e+03
+ -1.869798409001650e+03
+ -4.964000000000000e+01
+Node: 627
+  2.412356607266791e+03
+ -1.799738559173598e+03
+ -4.964000000000000e+01
+Node: 628
+  2.209824970523451e+03
+ -1.780324447860846e+03
+ -4.964000000000000e+01
+Node: 629
+  2.089178110277570e+03
+ -1.784792737557233e+03
+ -4.964000000000000e+01
+Node: 630
+  3.298939235455431e+03
+ -2.041017015307009e+03
+ -5.256000000000000e+01
+Node: 631
+  3.532473820789178e+03
+ -2.071419560479987e+03
+ -5.256000000000000e+01
+Node: 632
+  3.726720917877255e+03
+ -2.009893844126130e+03
+ -5.256000000000000e+01
+Node: 633
+  3.609220267506194e+03
+ -1.814279391279778e+03
+ -5.256000000000000e+01
+Node: 634
+  3.490847802760459e+03
+ -1.794915962089166e+03
+ -5.256000000000000e+01
+Node: 635
+  3.180882407207414e+03
+ -1.809284690621786e+03
+ -5.256000000000000e+01
+Node: 636
+  3.133015605749135e+03
+ -1.848777450947620e+03
+ -5.256000000000000e+01
+Node: 637
+  3.174741079626250e+03
+ -1.956982614085661e+03
+ -5.256000000000000e+01
+Node: 638
+  3.248077316290811e+03
+ -2.028124956553981e+03
+ -5.256000000000000e+01
+Node: 639
+  2.722334652544551e+03
+ -1.929337946694445e+03
+ -1.168000000000000e+01
+Node: 640
+  2.793963510853227e+03
+ -1.929945529936198e+03
+ -1.168000000000000e+01
+Node: 641
+  2.890996638434127e+03
+ -1.971232799788644e+03
+ -1.168000000000000e+01
+Node: 642
+  2.997478603649367e+03
+ -2.036983298523638e+03
+ -1.168000000000000e+01
+Node: 643
+  3.089281233011531e+03
+ -2.062620063963006e+03
+ -1.168000000000000e+01
+Node: 644
+  3.262439603323311e+03
+ -2.047232588830013e+03
+ -1.168000000000000e+01
+Node: 645
+  3.336312189659084e+03
+ -2.049270795900875e+03
+ -1.168000000000000e+01
+Node: 646
+  3.430993634210011e+03
+ -2.044875223384151e+03
+ -1.168000000000000e+01
+Node: 647
+  3.509384307529278e+03
+ -2.052389532171525e+03
+ -1.168000000000000e+01
+Node: 648
+  3.594220960065173e+03
+ -2.045372610730912e+03
+ -1.168000000000000e+01
+Node: 649
+  3.662716850953004e+03
+ -1.998072650567268e+03
+ -1.168000000000000e+01
+Node: 650
+  3.719043149014036e+03
+ -1.990010507754107e+03
+ -1.168000000000000e+01
+Node: 651
+  3.665663082340482e+03
+ -1.862012955504360e+03
+ -1.168000000000000e+01
+Node: 652
+  3.659399562378241e+03
+ -1.839532717123004e+03
+ -1.168000000000000e+01
+Node: 653
+  3.516139532422390e+03
+ -1.788771256180190e+03
+ -1.168000000000000e+01
+Node: 654
+  3.437036447867880e+03
+ -1.771082544696250e+03
+ -1.168000000000000e+01
+Node: 655
+  3.386845472886431e+03
+ -1.767959080207652e+03
+ -1.168000000000000e+01
+Node: 656
+  3.182450192189822e+03
+ -1.810640474619675e+03
+ -1.168000000000000e+01
+Node: 657
+  3.118174885975422e+03
+ -1.831412116611705e+03
+ -1.168000000000000e+01
+Node: 658
+  3.023334090368306e+03
+ -1.837470069121358e+03
+ -1.168000000000000e+01
+Node: 659
+  2.960017753084865e+03
+ -1.848237568042167e+03
+ -1.168000000000000e+01
+Node: 660
+  2.930868085989362e+03
+ -1.853861775383768e+03
+ -1.168000000000000e+01
+Node: 661
+  2.632358282512089e+03
+ -1.849226882940544e+03
+ -1.168000000000000e+01
+Node: 662
+  2.626267290940698e+03
+ -1.848422009237881e+03
+ -1.168000000000000e+01
+Node: 663
+  2.447957098236191e+03
+ -1.827321407879590e+03
+ -1.168000000000000e+01
+Node: 664
+  2.132771917400854e+03
+ -1.728987818593956e+03
+ -1.168000000000000e+01
+Node: 665
+  1.909845995146715e+03
+ -1.671544164574198e+03
+ -1.168000000000000e+01
+Node: 666
+  1.718683517242162e+03
+ -1.617155310556197e+03
+ -1.168000000000000e+01
+Node: 667
+  1.516377061321417e+03
+ -1.553681647570770e+03
+ -1.168000000000000e+01
+Node: 668
+  1.416936618665595e+03
+ -1.504076719746872e+03
+ -1.168000000000000e+01
+Node: 669
+  1.309603269902227e+03
+ -1.369551169968248e+03
+ -1.168000000000000e+01
+Node: 670
+  1.240845687351606e+03
+ -1.250748252319755e+03
+ -1.168000000000000e+01
+Node: 671
+  1.190745218144105e+03
+ -1.229912605337041e+03
+ -1.168000000000000e+01
+Node: 672
+  1.076509091842453e+03
+ -1.251028567251978e+03
+ -1.168000000000000e+01
+Node: 673
+  1.013135838903364e+03
+ -1.285026633548728e+03
+ -1.168000000000000e+01
+Node: 674
+  9.635815932016048e+02
+ -1.300307904206945e+03
+ -1.168000000000000e+01
+Node: 675
+  9.584676241510812e+02
+ -1.311842561572913e+03
+ -1.168000000000000e+01
+Node: 676
+  9.425297655695705e+02
+ -1.394478833656277e+03
+ -1.168000000000000e+01
+Node: 677
+  9.135353039057916e+02
+ -1.487878358777273e+03
+ -1.168000000000000e+01
+Node: 678
+  8.423939156354130e+02
+ -1.561204641070618e+03
+ -1.168000000000000e+01
+Node: 679
+  7.784237570684429e+02
+ -1.643244961724042e+03
+ -1.168000000000000e+01
+Node: 680
+  7.103172600573904e+02
+ -1.684805891271918e+03
+ -1.168000000000000e+01
+Node: 681
+  6.550521396772267e+02
+ -1.759664073652777e+03
+ -1.168000000000000e+01
+Node: 682
+  6.362856161144953e+02
+ -1.829994284041838e+03
+ -1.168000000000000e+01
+Node: 683
+  5.884188146562171e+02
+ -1.869487044367671e+03
+ -1.168000000000000e+01
+Node: 684
+  5.032829662501122e+02
+ -1.921440456345835e+03
+ -1.168000000000000e+01
+Node: 685
+  4.922935781919442e+02
+ -1.952453359307457e+03
+ -1.168000000000000e+01
+Node: 686
+  5.824429856022356e+02
+ -2.057273679587321e+03
+ -1.168000000000000e+01
+Node: 687
+  6.771999121102922e+02
+ -2.030292253035955e+03
+ -1.168000000000000e+01
+Node: 688
+  7.935042076339852e+02
+ -2.029415986673792e+03
+ -1.168000000000000e+01
+Node: 689
+  9.828037883966604e+02
+ -2.019503685070461e+03
+ -1.168000000000000e+01
+Node: 690
+  1.217480548666088e+03
+ -2.037990847898911e+03
+ -1.168000000000000e+01
+Node: 691
+  1.419621506059652e+03
+ -2.061375799128564e+03
+ -1.168000000000000e+01
+Node: 692
+  1.575632834162617e+03
+ -2.064315782725278e+03
+ -1.168000000000000e+01
+Node: 693
+  1.667354869411348e+03
+ -2.069099708919381e+03
+ -1.168000000000000e+01
+Node: 694
+  1.820918257511653e+03
+ -2.055761836706949e+03
+ -1.168000000000000e+01
+Node: 695
+  1.958593514954645e+03
+ -2.040911018951490e+03
+ -1.168000000000000e+01
+Node: 696
+  2.102534870755057e+03
+ -2.002611115683476e+03
+ -1.168000000000000e+01
+Node: 697
+  2.246086501403634e+03
+ -1.968272097961149e+03
+ -1.168000000000000e+01
+Node: 698
+  2.330080174874059e+03
+ -1.928234068327514e+03
+ -1.168000000000000e+01
+Node: 699
+  2.449594814555474e+03
+ -1.935682115173598e+03
+ -1.168000000000000e+01
+Node: 700
+  2.582156102947943e+03
+ -1.932365954784108e+03
+ -1.168000000000000e+01
+Node: 701
+  2.622625539682277e+03
+ -1.928228662142084e+03
+ -1.168000000000000e+01
+ Group name: marker
+ Group name: stellate face 1-2
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 78
+Node: 79
+Node: 80
+Node: 81
+Node: 82
+Node: 83
+Node: 84
+Node: 85
+Node: 86
+Node: 87
+Node: 88
+Node: 89
+Node: 123
+Node: 124
+Node: 125
+Node: 126
+Node: 127
+Node: 128
+Node: 129
+Node: 130
+Node: 131
+Node: 132
+Node: 133
+Node: 134
+Node: 135
+Node: 136
+Node: 165
+Node: 166
+Node: 167
+Node: 168
+Node: 169
+Node: 170
+Node: 171
+Node: 172
+Node: 173
+Node: 174
+Node: 175
+Node: 176
+Node: 177
+Node: 178
+Node: 179
+Node: 209
+Node: 210
+Node: 211
+Node: 212
+Node: 213
+Node: 214
+Node: 215
+Node: 216
+Node: 217
+Node: 218
+Node: 219
+Node: 220
+Node: 221
+Node: 222
+Node: 265
+Node: 266
+Node: 267
+Node: 268
+Node: 269
+Node: 270
+Node: 271
+Node: 272
+Node: 273
+Node: 274
+Node: 275
+Node: 276
+Node: 277
+Node: 278
+Node: 279
+Node: 280
+Node: 281
+Node: 282
+Node: 320
+Node: 321
+Node: 322
+Node: 323
+Node: 324
+Node: 325
+Node: 326
+Node: 327
+Node: 328
+Node: 329
+Node: 330
+Node: 331
+Node: 332
+Node: 333
+Node: 334
+Node: 335
+Node: 336
+Node: 337
+Node: 338
+Node: 339
+Node: 340
+Node: 381
+Node: 382
+Node: 383
+Node: 384
+Node: 385
+Node: 386
+Node: 387
+Node: 388
+Node: 389
+Node: 390
+Node: 391
+Node: 392
+Node: 393
+Node: 394
+Node: 395
+Node: 396
+Node: 397
+Node: 398
+Node: 399
+Node: 400
+Node: 441
+Node: 442
+Node: 443
+Node: 444
+Node: 445
+Node: 446
+Node: 447
+Node: 448
+Node: 449
+Node: 450
+Node: 451
+Node: 452
+Node: 453
+Node: 454
+Node: 455
+Node: 456
+Node: 457
+Node: 458
+Node: 459
+Node: 491
+Node: 492
+Node: 493
+Node: 494
+Node: 495
+Node: 496
+Node: 497
+Node: 498
+Node: 499
+Node: 500
+Node: 501
+Node: 502
+Node: 503
+Node: 504
+Node: 505
+Node: 506
+Node: 507
+Node: 508
+Node: 535
+Node: 536
+Node: 537
+Node: 538
+Node: 539
+Node: 540
+Node: 541
+Node: 542
+Node: 543
+Node: 544
+Node: 545
+Node: 546
+Node: 547
+Node: 548
+Node: 549
+Node: 649
+Node: 650
+Node: 651
+Node: 652
+Node: 653
+Node: 654
+Node: 655
+Node: 656
+Node: 657
+Node: 658
+Node: 659
+Node: 660
+Node: 661
+Node: 662
+Node: 663
+Node: 664
+Node: 665
+Node: 666
+Node: 667
+Node: 668
+Node: 669
+Node: 670
+ Group name: stellate face 2-3
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 53
+Node: 54
+Node: 55
+Node: 56
+Node: 57
+Node: 58
+Node: 59
+Node: 60
+Node: 61
+Node: 90
+Node: 91
+Node: 93
+Node: 94
+Node: 95
+Node: 96
+Node: 97
+Node: 98
+Node: 99
+Node: 100
+Node: 101
+Node: 137
+Node: 138
+Node: 140
+Node: 141
+Node: 142
+Node: 143
+Node: 144
+Node: 145
+Node: 146
+Node: 147
+Node: 180
+Node: 181
+Node: 183
+Node: 184
+Node: 185
+Node: 186
+Node: 187
+Node: 188
+Node: 223
+Node: 224
+Node: 226
+Node: 227
+Node: 228
+Node: 229
+Node: 230
+Node: 231
+Node: 232
+Node: 233
+Node: 283
+Node: 285
+Node: 286
+Node: 287
+Node: 288
+Node: 289
+Node: 290
+Node: 291
+Node: 341
+Node: 343
+Node: 344
+Node: 345
+Node: 346
+Node: 347
+Node: 348
+Node: 349
+Node: 350
+Node: 351
+Node: 352
+Node: 353
+Node: 401
+Node: 403
+Node: 404
+Node: 405
+Node: 406
+Node: 407
+Node: 408
+Node: 409
+Node: 410
+Node: 411
+Node: 460
+Node: 462
+Node: 463
+Node: 464
+Node: 465
+Node: 466
+Node: 467
+Node: 468
+Node: 469
+Node: 470
+Node: 471
+Node: 510
+Node: 511
+Node: 512
+Node: 513
+Node: 514
+Node: 671
+Node: 672
+Node: 673
+Node: 674
+Node: 675
+Node: 676
+Node: 677
+Node: 678
+Node: 679
+Node: 680
+Node: 681
+Node: 682
+Node: 683
+Node: 684
+ Group name: stellate face 3-1
+!#nodeset nodes
+Shape. Dimension=0
+#Fields=0
+Node: 62
+Node: 63
+Node: 64
+Node: 65
+Node: 66
+Node: 67
+Node: 68
+Node: 69
+Node: 70
+Node: 71
+Node: 72
+Node: 73
+Node: 74
+Node: 75
+Node: 76
+Node: 77
+Node: 102
+Node: 103
+Node: 104
+Node: 105
+Node: 106
+Node: 107
+Node: 108
+Node: 109
+Node: 110
+Node: 111
+Node: 112
+Node: 113
+Node: 114
+Node: 115
+Node: 116
+Node: 117
+Node: 118
+Node: 119
+Node: 120
+Node: 121
+Node: 122
+Node: 148
+Node: 149
+Node: 150
+Node: 151
+Node: 152
+Node: 153
+Node: 154
+Node: 155
+Node: 156
+Node: 157
+Node: 158
+Node: 159
+Node: 160
+Node: 161
+Node: 162
+Node: 163
+Node: 164
+Node: 189
+Node: 190
+Node: 191
+Node: 192
+Node: 193
+Node: 194
+Node: 195
+Node: 196
+Node: 197
+Node: 198
+Node: 199
+Node: 200
+Node: 201
+Node: 202
+Node: 203
+Node: 204
+Node: 205
+Node: 206
+Node: 207
+Node: 208
+Node: 234
+Node: 235
+Node: 236
+Node: 237
+Node: 238
+Node: 239
+Node: 240
+Node: 241
+Node: 242
+Node: 243
+Node: 244
+Node: 245
+Node: 246
+Node: 247
+Node: 248
+Node: 249
+Node: 250
+Node: 251
+Node: 252
+Node: 253
+Node: 254
+Node: 255
+Node: 256
+Node: 257
+Node: 258
+Node: 259
+Node: 260
+Node: 261
+Node: 262
+Node: 263
+Node: 264
+Node: 292
+Node: 293
+Node: 294
+Node: 295
+Node: 296
+Node: 297
+Node: 298
+Node: 299
+Node: 300
+Node: 301
+Node: 302
+Node: 303
+Node: 304
+Node: 305
+Node: 306
+Node: 307
+Node: 308
+Node: 309
+Node: 310
+Node: 311
+Node: 312
+Node: 313
+Node: 314
+Node: 315
+Node: 316
+Node: 317
+Node: 318
+Node: 319
+Node: 354
+Node: 355
+Node: 356
+Node: 357
+Node: 358
+Node: 359
+Node: 360
+Node: 361
+Node: 362
+Node: 363
+Node: 364
+Node: 365
+Node: 366
+Node: 367
+Node: 368
+Node: 369
+Node: 370
+Node: 371
+Node: 372
+Node: 373
+Node: 374
+Node: 375
+Node: 376
+Node: 377
+Node: 378
+Node: 379
+Node: 380
+Node: 412
+Node: 413
+Node: 414
+Node: 415
+Node: 416
+Node: 417
+Node: 418
+Node: 419
+Node: 420
+Node: 421
+Node: 422
+Node: 423
+Node: 424
+Node: 425
+Node: 426
+Node: 427
+Node: 428
+Node: 429
+Node: 430
+Node: 431
+Node: 432
+Node: 433
+Node: 434
+Node: 435
+Node: 436
+Node: 437
+Node: 438
+Node: 439
+Node: 440
+Node: 472
+Node: 473
+Node: 474
+Node: 475
+Node: 476
+Node: 477
+Node: 478
+Node: 479
+Node: 480
+Node: 481
+Node: 482
+Node: 483
+Node: 484
+Node: 485
+Node: 486
+Node: 487
+Node: 488
+Node: 489
+Node: 490
+Node: 515
+Node: 516
+Node: 517
+Node: 518
+Node: 519
+Node: 520
+Node: 521
+Node: 522
+Node: 523
+Node: 524
+Node: 525
+Node: 526
+Node: 527
+Node: 528
+Node: 529
+Node: 530
+Node: 531
+Node: 532
+Node: 533
+Node: 534
+Node: 639
+Node: 640
+Node: 641
+Node: 642
+Node: 643
+Node: 644
+Node: 645
+Node: 646
+Node: 647
+Node: 648
+Node: 685
+Node: 686
+Node: 687
+Node: 688
+Node: 689
+Node: 690
+Node: 691
+Node: 692
+Node: 693
+Node: 694
+Node: 695
+Node: 696
+Node: 697
+Node: 698
+Node: 699
+Node: 700
