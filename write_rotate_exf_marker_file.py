@@ -257,7 +257,7 @@ def main_writerotatefile(data_path):
         in_file = data_path + sample
         if not os.path.exists(data_path + 'exf_output\\'):
             os.mkdir(data_path + 'exf_output\\')
-        mapclient_workflow_path = 'C:\\Users\\sfon036\\Google Drive\\SPARC_work\\codes\\mapclient_workflows\\11_stellate3arm\\exp_data\\'
+        mapclient_workflow_path = 'scaffoldfitter_output\\scaffoldfitter_geofit_folder\\exp_data\\'
 
         with open(in_file, 'r') as f_in:
             if '10x' not in sample.lower() and not concave_hull:

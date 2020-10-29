@@ -3,10 +3,7 @@
 
 import os
 import math
-import xml.etree.ElementTree as ElTree
-from tools import find_closest_end, zinc_read_exf_file
-import sys
-sys.path.insert(1, "C:\\Users\\sfon036\\Google Drive\\SPARC_work\\codes\\python_packages\\mbfxml2ex_shelley\\src\\")
+from stellate_heatmap_tools import zinc_read_exf_file
 import mbfxml2ex_shelley
 
 

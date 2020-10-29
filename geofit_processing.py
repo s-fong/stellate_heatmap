@@ -20,9 +20,7 @@ import numpy as np
 from math import *
 from math import floor, ceil, sqrt
 from copy import deepcopy
-import rasterio
 from rasterio import Affine, features
-from matplotlib.collections import LineCollection
 import matplotlib.pyplot as plt
 from stellate_heatmap_tools import flip_system, translate_system, rotate_points, twoD_Gaussian, create_colormap, cart2pol, extrude_3D_in_1D, xml_soma_nerve_connections, write_heatmap_com_file_single, refine_mesh, zinc_read_exf_file, zinc_find_ix_from_real_coordinates, zinc_write_element_xi_file, zinc_write_element_xi_marker_file, write_parameter_set_string_values
 from concave_hull_tools import alpha_shape, plot_polygon
