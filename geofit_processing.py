@@ -22,7 +22,7 @@ from math import floor, ceil, sqrt
 from copy import deepcopy
 from rasterio import Affine, features
 import matplotlib.pyplot as plt
-from stellate_heatmap_tools import flip_system, translate_system, rotate_points, twoD_Gaussian, create_colormap, cart2pol, extrude_3D_in_1D, xml_soma_nerve_connections, write_heatmap_com_file_single, refine_mesh, zinc_read_exf_file, zinc_find_ix_from_real_coordinates, zinc_write_element_xi_file, zinc_write_element_xi_marker_file, write_parameter_set_string_values
+from stellate_heatmap_tools import flip_system, translate_system, rotate_points, twoD_Gaussian, create_colormap, cart2pol, extrude_3D_in_1D, xml_soma_nerve_connections, write_heatmap_com_file_single, refine_mesh, zinc_read_exf_file, zinc_find_ix_from_real_coordinates, zinc_write_element_xi_file, write_parameter_set_string_values
 from concave_hull_tools import alpha_shape, plot_polygon
 from find_somanerve_distance import main_somanerve
 from write_rotate_exf_marker_file import main_writerotatefile
@@ -149,12 +149,10 @@ def average_polygon(shapes, plot_concave_hull):
     return simp_shape
 
 
-def average_shape(zinc, files, data_path, ic, meshFile, plot_graphs, all_fids, projected_markers):
+def average_shape(files, data_path, ic, meshFile, plot_graphs, all_fids):
 
     plot_individual_hulls, plot_concave_hull,  _ = plot_graphs
 
-    all_fids_ns = [a.replace(' ', '') for a in all_fids]
-    cols = ['b','r','g','m','c','y']
     x_all = []
     y_all = []
     z_all = []
@@ -174,15 +172,11 @@ def average_shape(zinc, files, data_path, ic, meshFile, plot_graphs, all_fids, p
     east = 'Thoracic sympathetic nerve trunk'
     north = 'Ventral ansa subclavia'
 
-    if zinc:
-        context = Context("Example")
-        region = context.getDefaultRegion()
-        first_fid = True if not ic else False
+    first_fid = []
+    # first_fid = True if not ic else False
 
     for iif, f in enumerate(files):#[0:2]:
         print(f)
-        points = []
-        full_body = 0 if '63x' in f or '40x' in f.lower() else 1
 
         derv_present = 1
         marker_present = 1
@@ -407,23 +401,9 @@ def average_shape(zinc, files, data_path, ic, meshFile, plot_graphs, all_fids, p
         out_file = meshFile
         outputRegion.writeFile(out_file)
 
-        # write projected_markers to .exf file    just one sample's
-        if False:
-            outFile = path+'\\projected_markers.exf'
-            zinc_write_element_xi_marker_file(outFile, outputRegion, projected_markers, nodes.getSize()+1)
-
-
         # -------- MARKERS -------- written out to different file. Only write the xi coords and the marker_name string.
         # the below assumes you have a FieldGroup named 'marker'
         if False:
-            sir = region.createStreaminformationRegion()
-            srf = sir.createStreamresourceFile(path + 'test\\markers.exf')
-            sir.setResourceGroupName(srf, 'marker')  # must specify group by name, to find appropriate group in all subregions
-            if False:  # the below is not strictly needed
-                sir.setFieldNames(['marker_name', 'marker_location'])
-                sir.setResourceFieldNames(srf, ['marker_name', 'marker_location'])
-            region.write(sir)
-
             fmOut.endChange()
             outputRegion.getFieldmodule().defineAllFaces()  # add 1D and 2D elements  # must define the mesh3D manually first
             outputRegion.writeFile(path + 'test\\TEST_write_within_function.exf')
@@ -449,12 +429,9 @@ def twoD_gauss_soma(chosen_fid, xy, xyfid, marker_mean, gauss_bounds, cmaps, hb,
 
     chosen_fid = [n for n in list(marker_mean.keys())] if chosen_fid == 'all' else [chosen_fid]
     xybody = xy.copy()
-    xy = np.array(xy)
     N = 20 #30 #200
     x = np.linspace(hb[0][0], hb[0][1], N)
     y = np.linspace(hb[1][0], hb[1][1], N)
-    centroid = [np.mean(x), np.mean(y)]
-    xy = [[x[i], y[i]] for i in range(len(x))]
     xarr = x.copy()
     yarr = y.copy()
     x, y = np.meshgrid(x, y)
@@ -469,7 +446,6 @@ def twoD_gauss_soma(chosen_fid, xy, xyfid, marker_mean, gauss_bounds, cmaps, hb,
         param = (1, marker_mean[key][0], marker_mean[key][1], sd, sd, 0)
         initial_guess = deepcopy(param)
         data = np.zeros([N,N])
-        theta_fid, r_fid = cart2pol(marker_mean[key], centroid)
         if isinstance(xyfid[key][0], float) or isinstance(xyfid[key][0], int):
             row = xyfid[key]
             xind = (np.abs(xarr - row[0])).argmin()
@@ -498,7 +474,6 @@ def twoD_gauss_soma(chosen_fid, xy, xyfid, marker_mean, gauss_bounds, cmaps, hb,
         plt.title('Fiducial heatmap')
 
         plt.axis('equal')
-        j = 10
         if False:
             cba = plt.colorbar(pa, shrink=0.25)
             cba.set_clim(0, param[0])
@@ -508,7 +483,7 @@ def twoD_gauss_soma(chosen_fid, xy, xyfid, marker_mean, gauss_bounds, cmaps, hb,
     return(xdata_tuple, heatmaps)
 
 
-def make_heatmap(zinc, fitter_path, do_heatmap, chosen_fid, meshFile, geoMeshFile, heatmap_bounds, all_nerves, all_soma, pref, plot_graphs, shapes, projected_markers, marker_mean):
+def make_heatmap(fitter_path, do_heatmap, chosen_fid, meshFile, geoMeshFile, heatmap_bounds, all_nerves, plot_graphs, shapes, projected_markers, marker_mean):
 
     plot_individual_hulls, plot_concave_hull,  plot_heatmap = plot_graphs
     two_layer = True
@@ -530,8 +505,7 @@ def make_heatmap(zinc, fitter_path, do_heatmap, chosen_fid, meshFile, geoMeshFil
         xyz_marker_dim = []
     else:
         first_fid = 1
-        simp_shape, xyz_fid, elemdict, zbound, nodenums, xyz_marker_dim, marker_names = average_shape(zinc, files, fitter_path, 0, meshFile, plot_graphs, all_nerves, projected_markers) #all_soma
-        avg_xyz_marker = []
+        simp_shape, xyz_fid, elemdict, zbound, nodenums, xyz_marker_dim, marker_names = average_shape(files, fitter_path, 0, meshFile, plot_graphs, all_nerves) #all_soma
         shapes_o = dict()
         shapes_o['simp_shape'] = simp_shape
         shapes_o['xyz_fid'] = xyz_fid
@@ -671,15 +645,13 @@ def make_heatmap(zinc, fitter_path, do_heatmap, chosen_fid, meshFile, geoMeshFil
     return
 
 
-def probability_per_node_zinc(io_files, up_path, path, xtup, nn, heatmaps, all_nerves_ns, single_com, unloc_dist, nerve_position):
+def probability_per_node_zinc(io_files, xtup, nn, heatmaps, unloc_dist, nerve_position):
 
     nerve_title = io_files[1].split('\\')[-1].split('.')[0]
     node_probability = {c: 0 for c in nn}
 
     refinedFile_template = io_files[0]
     refinedFile_withProbability = io_files[1]
-    cmgui_com_file_individual = io_files[2]
-    end_node_section_text = ['marker_name','marker_data_name']
 
     # first read of input file: for the xyz node values for finding nodal probabilities
     node_xyz = {}
@@ -723,8 +695,6 @@ def probability_per_node_zinc(io_files, up_path, path, xtup, nn, heatmaps, all_n
     coordinates = findOrCreateFieldCoordinates(fmOut)
     probability = findOrCreateFieldFiniteElement(fmOut, probability_group_name, 1)
     nodes = fmOut.findNodesetByFieldDomainType(Field.DOMAIN_TYPE_NODES)
-    mesh = fmOut.findMeshByDimension(3)
-    # mesh.destroyAllElements() # this messes up the markers?
 
     nodetemplate = nodes.createNodetemplate()
     nodetemplate.defineField(coordinates)
@@ -732,7 +702,6 @@ def probability_per_node_zinc(io_files, up_path, path, xtup, nn, heatmaps, all_n
     nodetemplate.setValueNumberOfVersions(coordinates, -1, Node.VALUE_LABEL_VALUE, 1)
     nodetemplate.setValueNumberOfVersions(probability, -1, Node.VALUE_LABEL_VALUE, 1)
 
-    nodeIdentifier = 1
     for id, nodeIdentifier in enumerate(node_xyz.keys()):
         xyz_val = node_xyz[nodeIdentifier]
         node = nodes.findNodeByIdentifier(nodeIdentifier)
@@ -743,6 +712,8 @@ def probability_per_node_zinc(io_files, up_path, path, xtup, nn, heatmaps, all_n
 
 
     if False: # proper openCMISS way - incorrect right now.
+        mesh = fmOut.findMeshByDimension(3)
+        # mesh.destroyAllElements() # this messes up the markers?
         destroyElements = True
         basis = fmOut.createElementbasis(3, Elementbasis.FUNCTION_TYPE_LINEAR_LAGRANGE)
 
@@ -816,7 +787,7 @@ def probability_per_node_zinc(io_files, up_path, path, xtup, nn, heatmaps, all_n
     return (lines, refinedFile_withProbability, marker_elemxi, marker_xdx, comlines)
 
 
-def refine_mesh_write_out(zinc, up_path, path, source_file, ic, heatmaps, pref, out_files, nodelist, single_com, unloc_dist, nerve_position):
+def refine_mesh_write_out(path, source_file, ic, heatmaps, pref, out_files, nodelist, unloc_dist, nerve_position):
     rf_path = path + 'refined\\'
     out_name = source_file.split('\\')[-1]
     refinedfile = rf_path + pref + out_name
@@ -839,7 +810,6 @@ def refine_mesh_write_out(zinc, up_path, path, source_file, ic, heatmaps, pref, 
         outputRegion, nodeIdentifier = refine_mesh(region, outputRegion, subdiv)
         outputRegion.getFieldmodule().defineAllFaces()  # add 1D and 2D elements
         mesh = fm.findMeshByDimension(3)
-        nodes = fm.findNodesetByFieldDomainType(Field.DOMAIN_TYPE_NODES)
 
         outputRegion.writeFile(refinedfile)
 
@@ -854,7 +824,7 @@ def refine_mesh_write_out(zinc, up_path, path, source_file, ic, heatmaps, pref, 
 
     # add probability field to refined mesh, using heatmaps
     out_files[0] = refinedfile
-    _, refinedFile_withProbability, _,_, ctemp = probability_per_node_zinc(out_files, up_path, path, xtup, nodelist, heatmaps, all_nerves, single_com, unloc_dist, nerve_position)
+    _, refinedFile_withProbability, _,_, ctemp = probability_per_node_zinc(out_files, xtup, nodelist, heatmaps, unloc_dist, nerve_position)
 
     clines = []
     for line in ctemp:
@@ -871,7 +841,6 @@ if __name__ == "__main__":
     path = up_path + 'processed_exf\\'
     com_folder = up_path + 'com_files\\'
 
-    zinc = True # to read (and write)
     do_heatmap = True
     single_com = True
     testing = False
@@ -900,7 +869,6 @@ if __name__ == "__main__":
     fes = [f for f in fes if f.endswith('.exf')]
     suf = '_'+fes[0].split('_')[-1]
     raw_data_all = {c.split('_')[0]:{} for c in fes}
-    projected_markers_all = {c.split('_')[0]:{} for c in fes}
     projected_markers_all = {}
     for fe in fes:
         file_name = raw_path + fe
@@ -963,16 +931,16 @@ if __name__ == "__main__":
     for ic, c in enumerate(chosen_fid+['all']):
         suf = '_' + c.replace(' ', '')
         if not do_heatmap:
-            make_heatmap(zinc, do_heatmap, geofit_output_path, c, meshFile, geoMeshFile, heatmap_bounds, all_nerves, all_soma, pref, plot_graphs, [], [], [])
+            make_heatmap(do_heatmap, geofit_output_path, c, meshFile, geoMeshFile, heatmap_bounds, all_nerves, plot_graphs, [], [], [])
         else:
             if ic==0:
-                xtup, heatmaps, nn, shapes, marker_mean, concaveMeshFile= make_heatmap(zinc, geofit_output_path, do_heatmap, c, meshFile, geoMeshFile, heatmap_bounds, all_nerves, all_soma, pref, plot_graphs, [], projected_markers_all, [])
+                xtup, heatmaps, nn, shapes, marker_mean, concaveMeshFile= make_heatmap(geofit_output_path, do_heatmap, c, meshFile, geoMeshFile, heatmap_bounds, all_nerves, plot_graphs, [], projected_markers_all, [])
             else:
-                xtup, heatmaps, nn, shapes, marker_mean, concaveMeshFile = make_heatmap(zinc, geofit_output_path,do_heatmap, c, meshFile, geoMeshFile, heatmap_bounds, all_nerves, all_soma, pref, plot_graphs, shapes, projected_markers_all, marker_mean)
+                xtup, heatmaps, nn, shapes, marker_mean, concaveMeshFile = make_heatmap(geofit_output_path,do_heatmap, c, meshFile, geoMeshFile, heatmap_bounds, all_nerves, plot_graphs, shapes, projected_markers_all, marker_mean)
 
         # refine mesh 4x4x1
-        out_files = [[], \
-                     path + pref+'refined_mesh_with_probability%s.exf' %(suf), \
+        out_files = [[],
+                     path + pref+'refined_mesh_with_probability%s.exf' %(suf),
                      com_folder + pref+'view%s.com' %(suf)]
         out_files[1] = path + pref+'%s.exf' %(suf[1:])
         out_files[-1] = com_folder + pref+'heatmap%s.com' %(suf)
@@ -980,13 +948,10 @@ if __name__ == "__main__":
         if ic == 0:
             nodelist = []
 
-        # write out nodes in format for overriding nodal values in scaffoldmaker, via exnodeStringFromNodeValues
-        # Node.VALUE_LABEL_VALUE, Node.VALUE_LABEL_D_DS1, Node.VALUE_LABEL_D_DS2],
-        # [[[0.0, 0.0, 0.0], [-50.7, 178.2, 0.0], [-24.0, -6.0, -12.0]]...]
         paramOutFile = path + 'nodal_param_mean_mesh.txt'
         write_parameter_set_string_values(geoMeshFile, paramOutFile)
 
-        comline, nodelist = refine_mesh_write_out(zinc, up_path, path, geoMeshFile, ic, heatmaps, pref, out_files, nodelist, single_com,[],[])
+        comline, nodelist = refine_mesh_write_out(path, geoMeshFile, ic, heatmaps, pref, out_files, nodelist,[],[])
         comlines.append(comline)
 
 
@@ -1008,7 +973,7 @@ if __name__ == "__main__":
                      com_folder + pref+'view%s.com' %(suf)]
         out_files[1] = path + pref+'%s.exf' %(suf[1:])
         out_files[-1] = com_folder + pref+'heatmap%s.com' %(suf)
-        comline, nodelist = refine_mesh_write_out(zinc, up_path, path, geoMeshFile, 1, [], pref, out_files, nodelist, single_com, nerve_dists[nerve_origin_name], xyz_marker[marker_names.index(nerve_origin_name)])
+        comline, nodelist = refine_mesh_write_out(path, geoMeshFile, 1, [], pref, out_files, nodelist, nerve_dists[nerve_origin_name], xyz_marker[marker_names.index(nerve_origin_name)])
 
 
 

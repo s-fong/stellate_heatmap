@@ -41,7 +41,6 @@ def coordinates_opencmiss_to_list(cache, nodes, coordinates, derv):
         if derv:
             result, d1 = coordinates.getNodeParameters(cache, -1, Node.VALUE_LABEL_D_DS1, 1, ccount )
             result2, d2 = coordinates.getNodeParameters(cache, -1, Node.VALUE_LABEL_D_DS2, 1, ccount )
-            result3, d3 = coordinates.getNodeParameters(cache, -1, Node.VALUE_LABEL_D_DS3, 1, ccount )
             if result == 1:
                 dxyzlist.append([[d1[i], d2[i]] for i in range(len(d1))])
         node = nodeIter.next()
@@ -120,7 +119,6 @@ def zinc_read_exf_file(file, raw_data, derv_present, marker_present, otherFieldN
         nodeIter = nodes.createNodeiterator()
         node = nodeIter.next()
         while node.isValid():
-            nodeID = node.getIdentifier()
             fieldcache.setNode(node)
             markerName = markerNamesField.evaluateString(fieldcache)
             if markerName is not None:
@@ -156,7 +154,6 @@ def zinc_find_ix_from_real_coordinates(modelFile, dataFile):
         return []
     fm = region.getFieldmodule()
     cache = fm.createFieldcache()
-    nodes = fm.findNodesetByFieldDomainType(Field.DOMAIN_TYPE_NODES)
     datapoints = fm.findNodesetByFieldDomainType(Field.DOMAIN_TYPE_DATAPOINTS)
     dataNamesField = fm.findFieldByName("marker_data_name")
     coordinates = findOrCreateFieldCoordinates(fm, "coordinates")
@@ -194,7 +191,6 @@ def zinc_write_element_xi_marker_file(outFile, region, allMarkers, nodeIdentifie
     markerTemplate.defineField(markerLocation)
 
     for key in allMarkers:
-        xi = allMarkers[key]["xi"]
         addMarker = {"name": key+" projected", "xi": allMarkers[key]["xi"]}
 
         markerPoint = markerPoints.createNode(nodeIdentifier, markerTemplate)
@@ -276,8 +272,6 @@ def xml_soma_nerve_connections(path):
     soma_dict = {f: {} for f in files}
     soma_name_list = []
     for f in files:
-        somaIDlist = []
-        found_soma = False
         file_name = path+'\\'+f if os.path.isdir(path) else path
         with open(file_name,'r') as f_in:
             tree = ElTree.parse(file_name)
@@ -293,7 +287,6 @@ def xml_soma_nerve_connections(path):
                             if property_set.get("name") == "Set":
                                 for child in property_set.iter():
                                     if "}" in child.tag:
-                                        tag = child.tag.split('}')
                                         somaID = "".join(child.itertext())
                                         if len(somaID) > 3 and 'x' not in somaID:
                                         # if ('10x' not in tag) and ('40x' not in tag) and ('63x' not in tag):
@@ -325,7 +318,7 @@ def xml_soma_nerve_connections(path):
                                                     soma_name = [n for n in soma_dict[f].keys() if tline in soma_dict[f][n]][0]
                                                     found_soma_name = True
                                             except:
-                                                j = 10
+                                                pass
                                         if found_soma_name and found_innerve:
                                             # if 'All Cells' not in somaID and 'unknown' not in innerve.lower() and soma_name:
                                             # if 'unknown' not in innerve.lower() and soma_name:
@@ -392,8 +385,6 @@ def parse_xml_find_soma_ID(xml_file):
 
     soma_dict = {}
     soma_name_list = []
-    somaIDlist = []
-    found_soma = False
     with open(xml_file,'r') as f_in:
         tree = ElTree.parse(xml_file)
         root = tree.getroot()
@@ -439,7 +430,7 @@ def parse_xml_find_soma_ID(xml_file):
                                                 soma_name = [n for n in soma_dict.keys() if tline in soma_dict[n]][0]
                                                 found_soma_name = True
                                         except:
-                                            j = 10
+                                            pass
                                     if found_soma_name and found_innerve:
                                         # if 'All Cells' not in somaID and 'unknown' not in innerve.lower() and soma_name:
                                         # if 'unknown' not in innerve.lower() and soma_name:
@@ -465,7 +456,7 @@ def find_closest_end(xp, yp, zp, target):
     return end_kept
 
 
-def find_closest_value_polar(rlist, thlist, zlayers,target, num_layers, N, reltol):
+def find_closest_value_polar(rlist, thlist, zlayers,target, num_layers, reltol):
     # perform in polar coords
 
     keep_ind = []
